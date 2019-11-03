@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+title: Formed in the spring of 2000 by a group of like minded people who required a safe, secure and reliable place to shoot at static targets.
+image: /img/hft-jumbotron.jpg
+heading: Great coffee with a conscience!
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi

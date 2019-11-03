@@ -16,11 +16,11 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div className="content">
-    <div >
-	<div className="columns">
+  <div className="content is-landing-page">
+    <div>
+	<div className="columns has-no-margin-bottom">
 	  <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
-	    <figure className="image is-128x128">
+	    <figure className="image is-128x128 has-margin-1">
 	      <img src="img/tagc-logo.jpg" class="is-rounded" alt="Tayside Airgun Club Logo" />
 	    </figure>
 	  </div>
@@ -54,37 +54,41 @@ export const IndexPageTemplate = ({
 	  </div>
 	</div>
 
-	<section className="section">
-	    <div className="container">
-		<div className="columns is-vcentered">
-		    <div className="column has-text-centered">
-			<div className="level">
-				<div className="level-item">
-				    <figure className="image is-200x200">
-				      <img src="img/tagc-logo.jpg" className="is-rounded" alt="Tayside Airgun Club Logo" />
-				    </figure>
-				</div>
-			</div>
-                        <p className="block">
-                            <p className="is-size-7">
-				Formed in the spring of 2000 by a group of like minded people who required a safe, secure and reliable place to shoot at static targets.
-			    </p>
-			</p>
-                        <p className="block">
-                            <div className="buttons is-centered">
-                                <a className="button is-primary" href="#">Apply to join!</a>
-			    </div>
-                        </p>
-		    </div>
-		    <div className="column">
-			<img src="img/hft.jpg" alt="Head HFT image" />
-		    </div>
-		</div>
-	    </div>
-	</section>
+        <div
+          className="is-jumbotron full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
+          }}
+        >
+          <h2
+            className="is-jumbotron-text has-text-weight-bold is-size-4 has-background-polkadot"
+            style={{
+              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+              color: 'white',
+              padding: '1rem',
+            }}
+          >
+            {title}
+          </h2>
+        </div>
 
-        <section className="section has-text-centered">
-	    <h2 className="title has-background-primary-light has-padding-5">Club notices</h2>
+        <div
+          className="section-wrapper"
+          style={{
+            backgroundImage: 'url(/img/section-header.jpg)',
+            backgroundRepeat: 'repeat',
+            backgroundPosition: 'top center',
+            backgroundAttachment: 'scroll',
+          }}
+        >
+          <section className="section">
+            <h1>Club Notices</h1>
+          </section>
+        </div>
+
+        <section className="section">
 	    <div className="columns notifications">
                 <div className="column">
 		    <div className="notification is-info">
@@ -92,20 +96,12 @@ export const IndexPageTemplate = ({
 			navigate, but if you wish to give us any feed back, you can do see via this <a
 			href="#" alt="Feedback form">feedback form</a>
 		    </div>
+		</div>
+                <div className="column">
                     <div className="notification is-primary">
 			The course will be closed for a week from Monday 30 September until after the
 			HFT competition on Sunday 6 October.  This is to allow the course to redesigned
 			and set out.  Help is needed during this time, see the email from Alan Hume
-		    </div> 
-		</div>
-                <div className="column">
-		    <div className="notification is-danger">
-			Lorem ipsum dolor sit amet, <a href="#">consectetur</a>
-			adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
-		    </div>
-                    <div className="notification is-dark">
-			Lorem ipsum dolor sit amet, <a href="#">consectetur </a> adipiscing elit lorem
-			ipsum dolor sit amet, consectetur adipiscing elit
 		    </div> 
 		</div>
 	    </div>

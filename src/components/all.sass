@@ -19,8 +19,14 @@ $dimensions: 16 24 32 48 64 96 128 200 !default
   justify-content: center
   align-items: center
 
+.columns:not(:last-child).has-no-margin-bottom
+  margin-bottom: 0px
+
 .is-flex-wrapped
   flex-wrap: wrap
+
+.has-margin-1
+  margin: 1em
 
 .has-padding-1
   padding: 1em
@@ -35,7 +41,7 @@ $dimensions: 16 24 32 48 64 96 128 200 !default
   padding: 5px
 
 .has-background-polkadot
-  background-image: radial-gradient($primary 50%, transparent 50%)
+  background-image: radial-gradient($primary 60%, transparent 10%)
   background-size: 2px 2px
 
 .navbar
@@ -73,9 +79,9 @@ $dimensions: 16 24 32 48 64 96 128 200 !default
   position: relative
   left: 50%
   right: 50%
-  margin: 2em -50vw
+  margin: 2em 0 0 -50vw
   background-size: cover
-  background-position: bottom
+  background-position: top
   display: flex
   justify-content: center
   align-items: center
@@ -160,6 +166,8 @@ $menu-label-color: $white-ter
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
+.is-landing-page .is-jumbotron .is-jumbotron-text
+  margin: 5em;
 
 @import "~bulma"
 
@@ -176,4 +184,6 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .is-landing-page .is-jumbotron .is-jumbotron-text
+    margin: 0em;
 

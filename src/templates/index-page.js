@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
+import Notifications from '../components/Notifications'
 import BlogRoll from '../components/BlogRoll'
 import Navbar from '../components/Navbar'
 
@@ -12,6 +13,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
+  notifications,
   mainpitch,
   description,
   intro,
@@ -74,38 +76,7 @@ export const IndexPageTemplate = ({
           </h2>
         </div>
 
-        <div
-          className="section-wrapper"
-          style={{
-            backgroundImage: 'url(/img/section-header.jpg)',
-            backgroundRepeat: 'repeat',
-            backgroundPosition: 'top center',
-            backgroundAttachment: 'scroll',
-          }}
-        >
-          <section className="section">
-            <h1>Club Notices</h1>
-          </section>
-        </div>
-
-        <section className="section">
-	    <div className="columns notifications">
-                <div className="column">
-		    <div className="notification is-info">
-			We have a new website! We hope you find it easy to
-			navigate, but if you wish to give us any feed back, you can do see via this <a
-			href="#" alt="Feedback form">feedback form</a>
-		    </div>
-		</div>
-                <div className="column">
-                    <div className="notification is-primary">
-			The course will be closed for a week from Monday 30 September until after the
-			HFT competition on Sunday 6 October.  This is to allow the course to redesigned
-			and set out.  Help is needed during this time, see the email from Alan Hume
-		    </div> 
-		</div>
-	    </div>
-	</section>
+        <Notifications gridItems={notifications} />
 
         <section className="section">
             <div className="container has-text-centered">
@@ -292,6 +263,10 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
+  notices: PropTypes.shape({
+    type: PropTypes.string,
+    text: PropTypes.string,
+  }),
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -309,7 +284,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        notices={frontmatter.notices}
+        notifications={frontmatter.notifications}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -342,7 +317,8 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        notices {
+        notifications {
+          type
           text
         }
         mainpitch {

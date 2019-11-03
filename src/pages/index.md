@@ -4,18 +4,17 @@ title: Formed in the spring of 2000 by a group of like minded people who require
 image: /img/hft-jumbotron.jpg
 heading: Great coffee with a conscience!
 subheading: Support sustainable farming while enjoying a cup
-notices:
-  - text: >
-      We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a
-      variety of coffee beans grown with great care for the environment and
-      local communities. Check our post or contact us directly for current
-      availability.
-  - text: >
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget
-      to fall in love with in our shop.
+notifications:
+  - type: info
+    text: >
+      Tayside Air Gun Club has a new website! We hope you find the new site
+      easy to navigate and find the information you are looking for. We try to
+      keep this site up to date with our club events and items for sale.
+  - type: primary
+    text: >
+      The course will be closed for a week from Monday 30 September until after the
+      HFT competition on Sunday 6 October.  This is to allow the course to redesigned
+      and set out.  Help is needed during this time, see the email from Alan Hume
 mainpitch:
   title: Why Kaldi
   description: >

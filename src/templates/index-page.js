@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
+import SectionHeader from '../components/SectionHeader'
 import Notifications from '../components/Notifications'
 import BlogRoll from '../components/BlogRoll'
 import Navbar from '../components/Navbar'
@@ -77,6 +78,8 @@ export const IndexPageTemplate = ({
         </div>
 
         <Notifications gridItems={notifications} />
+
+        <SectionHeader text="Welcome" />
 
         <section className="section">
             <div className="container has-text-centered">

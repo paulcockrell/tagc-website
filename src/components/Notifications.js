@@ -1,22 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import SectionHeader from '../components/SectionHeader'
 
 const NotificationGrid = ({ gridItems }) => (
   <div>
-    <div
-      className="section-wrapper"
-      style={{
-        backgroundImage: 'url(/img/section-header.jpg)',
-        backgroundRepeat: 'repeat',
-        backgroundPosition: 'top center',
-        backgroundAttachment: 'scroll',
-      }}
-    >
-      <section className="section">
-        <h1>Club Notifcations</h1>
-      </section>
-    </div>
+    <SectionHeader text="Club Notifications" />
 
     <section className="section">
       <div className="columns is-multiline notifications">

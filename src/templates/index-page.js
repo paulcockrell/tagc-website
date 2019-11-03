@@ -82,20 +82,34 @@ export const IndexPageTemplate = ({
         <SectionHeader text="Welcome" />
 
         <section className="section">
-            <div className="container has-text-centered">
-                <div className="block"><img src="placeholder/icons/unicorn.svg" alt="" /></div>
+            <div className="container">
                 <p>
-                    Our mission is not to outsell Hooli with a product like their latest Box 3. We
-                    are not in it for the money - we are in it to make the whole world
-                    decentralized. To give you control over your data. To change by the internet as
-                    we know it by integrating a very important feature into it - freedom.
+                  Tayside Airgun Club was formed in the spring of 2000 by a
+                  group of like minded people who required a safe, secure and
+                  reliable place to shoot at static targets.
+                </p>
+
+                <p>
+                  Auchterhouse Country Sports was able to provide all of
+                  these and, thanks to their support, the Club has
+                  flourished, becoming one of Scotlands leading airgun clubs.
+                </p>
+
+                <p>
+                  We also hold Corporate Events on behalf of Auchterhouse Country Sports, and host youth organisation team bonding events. Corporate or bonding, these events can become very hotly contested.
+                  Several of our members compete, with some success, in Scottish HFT competitions.
+                </p>
+
+                <p>
+                  The Club is affiliated to Scottish Target Shooting, UK Association for Hunter Field Target, and National Small-Bore Rifle Association.
+                  Tayside Airgun Club is approved and certificated by Police Scotland.
                 </p>
             </div>
         </section>
 
       <section className="section">
 	  <div className="container has-text-centered">
-	      <h2 className="title">What's So Great About PiperNet?</h2>
+	      <h2 className="title">What does the club offer?</h2>
 	      <div className="columns">
 		  <div className="column">
 		      <div className="level">
@@ -106,12 +120,9 @@ export const IndexPageTemplate = ({
 			  </div>
 		      </div>
 		      <p className="block">
-			  It's a really cool network. Like, we had a fight with Richard at one point, and
-			  I think they deleted some of my data, but then they brought it back. Just bro's
-			  being bro's. Respected!
+                        We provide our members with a variety of shooting
+                        disciplines 24 hours per day, 365 days per year.
 		      </p>
-		      <h5 className="title is-5">Colin</h5>
-		      <p className="subtitle">CEO at K-Hole</p>
 		  </div>
 		  <div className="column">
 		      <div className="level">
@@ -122,11 +133,10 @@ export const IndexPageTemplate = ({
 			  </div>
 		      </div>
 		      <p className="block">
-			  This is such a great product that I feel aroused every time I use it. I didn't
-			  know the boys would be able to build, but god damn it, they did it. Kickass!
+                        We have a full HFT 30 target course, laid out to
+                        UKAHFT specification, a 30 target plinking course,
+                        and a 45 yard indoor range.
 		      </p>
-		      <h5 className="title is-5">Russ Hanneman</h5>
-		      <p className="subtitle">Investor, Angel, Great Guy</p>
 		  </div>
 		  <div className="column">
 		      <div className="level">
@@ -137,79 +147,15 @@ export const IndexPageTemplate = ({
 			  </div>
 		      </div>
 		      <p className="block">
-			  Even though I have been dismantled, I live on as an artificial intelligence on
-			  the PiperNet. I really like it here. Still waiting for Jared to Piper-chat with
-			  me sometime.
+                        There is a very active pistol section within the Club which
+                        meets every Friday evening and we meet every Sunday
+                        for outdoor rifle shooting.
 		      </p>
-		      <h5 className="title is-5">Fiona</h5>
-		      <p className="subtitle">Artificial Intelligence</p>
 		  </div>
 	      </div>
 	  </div>
       </section>
-
-      <footer className="footer">
-	  <div className="container">
-	      <div className="level">
-		  <div className="level-left">
-		      <div className="level-item">
-			  <a className="title is-4" href="#">Pied Piper</a>
-		      </div>
-		  </div>
-		  <div className="level-right">
-		      <a className="level-item" href="#">Features</a>
-		      <a className="level-item" href="#">Enterprise</a>
-		      <a className="level-item" href="#">Support</a>
-		      <a className="level-item" href="#">ICO</a>
-		  </div>
-	      </div>
-	      <hr />
-	      <div className="columns">
-		  <div className="column">
-		      <div className="buttons">
-			  <a className="button" href="#">
-			      <img src="placeholder/icons/twitter.svg" alt="" />
-			  </a>
-			  <a className="button" href="#">
-			      <img src="placeholder/icons/facebook-f.svg" alt="" />
-			  </a>
-			  <a className="button" href="#">
-			      <img src="placeholder/icons/instagram.svg" alt="" />
-			  </a>
-		      </div>
-		  </div>
-		  <div className="column has-text-centered has-text-right-tablet">
-		      <p className="subtitle is-6">&copy; 2019 Pied Piper. All right reserved.</p>
-		  </div>
-	      </div>
-	  </div>
-      </footer>
     </div>
-
-    <div className="columns is-centered is-vcentered is-mobile is-gapless has-background-primary">
-      <div className="column is-4 is-info landing-caption">
-        <div className="level is-flex">
-          <div className="level-item has-text-centered">
-            <figure className="image is-200x200">
-              <img src="img/tagc-logo.jpg" className="is-rounded" alt="Tayside Airgun Club Logo" />
-            </figure>
-          </div>
-        </div>
-	<div className="level-item has-text-centered">
-	  <div>
-	    <p className="heading">Tweets</p>
-	    <p className="title">3,456</p>
-	  </div>
-	</div>
-      </div>
-      <div className="column is-8">
-        <figure className="image">
-          <img src="img/hft.jpg" alt="jumbo" />
-        </figure>
-      </div>
-    </div>
-
-    <Navbar />
 
     <section className="section section--gradient">
       <div className="container">

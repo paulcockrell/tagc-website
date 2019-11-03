@@ -309,6 +309,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
+        notices={frontmatter.notices}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -341,6 +342,9 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        notices {
+          text
+        }
         mainpitch {
           title
           description

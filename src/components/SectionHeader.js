@@ -1,15 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const SectionHeader = ({ text }) => (
+const SectionHeaderStyles = {
+  backgroundImage: 'url(/img/section-header.jpg)',
+  backgroundRepeat: 'repeat',
+  backgroundPosition: 'top center',
+  backgroundAttachment: 'scroll',
+};
+
+const SectionHeader = ({ text, hasBackgroundImage = true }) => (
   <div
     className="section-wrapper"
-    style={{
-      backgroundImage: 'url(/img/section-header.jpg)',
-      backgroundRepeat: 'repeat',
-      backgroundPosition: 'top center',
-      backgroundAttachment: 'scroll',
-    }}
+    style={(hasBackgroundImage == true ? SectionHeaderStyles : {})}
   >
     <section className="section">
       <div className="columns">
@@ -22,6 +24,7 @@ const SectionHeader = ({ text }) => (
 )
 
 SectionHeader.propTypes = {
+  hasBackgroundImage: PropTypes.string,
   text: PropTypes.string,
 }
 

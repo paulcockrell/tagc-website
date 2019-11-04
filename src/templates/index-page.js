@@ -21,140 +21,77 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="content is-landing-page">
     <div>
-	<div className="columns has-no-margin-bottom">
-	  <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
-	    <figure className="image is-128x128 has-margin-1">
-	      <img src="img/tagc-logo.jpg" class="is-rounded" alt="Tayside Airgun Club Logo" />
-	    </figure>
-	  </div>
-	  <div className="column is-vcentered is-centered is-10">
-	    <div className="tile is-ancestor is-flex-wrapped">
-	      <div className="tile is-parent is-12 has-background-dark has-padding-2">
-	        <div className="tile is-child has-padding-2">
-		  <Navbar />
-		</div>
-	      </div>
-	      <div className="tile is-parent is-12 has-background-light">
-	        <div className="tile is-child has-padding-1">
-		  <div className="level">
-		    <div className="level-left">
-		      <div className="level-item">
-		        Tayside Air Gun Club, Auchterhouse, Perthshire
-		      </div>
-		      <div className="level-item">
-		        | enquires@taysideairgunclub.co.uk
-		      </div>
-		    </div>
-		    <div className="level-right">
-		      <div className="level-item">
-		      F | T | Y
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+      <div className="columns has-no-margin-bottom">
+        <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
+          <figure className="image is-128x128 has-margin-1">
+            <img src="img/tagc-logo.jpg" class="is-rounded" alt="Tayside Airgun Club Logo" />
+          </figure>
+        </div>
+        <div className="column is-vcentered is-centered is-10">
+          <div className="tile is-ancestor is-flex-wrapped">
+            <div className="tile is-parent is-12 has-background-dark has-padding-2">
+              <div className="tile is-child has-padding-1">
+                <Navbar />
+              </div>
+            </div>
+            <div className="tile is-parent is-12 has-background-light">
+              <div className="tile is-child has-padding-1">
+                <div className="level">
+                  <div className="level-left">
+                    <div className="level-item">
+                      Tayside Air Gun Club, Auchterhouse, Perthshire
+                    </div>
+                    <div className="level-item">
+                      | enquires@taysideairgunclub.co.uk
+                    </div>
+                  </div>
+                  <div className="level-right">
+                    <div className="level-item">
+                    F | T | Y
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div
-          className="is-jumbotron full-width-image-container margin-top-0"
+      <div
+        className="is-jumbotron full-width-image-container margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+        }}
+      >
+        <h2
+          className="is-jumbotron-text has-text-weight-bold is-size-4 has-background-polkadot"
           style={{
-            backgroundImage: `url(${
-              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
+            boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+            color: 'white',
+            padding: '1rem',
           }}
         >
-          <h2
-            className="is-jumbotron-text has-text-weight-bold is-size-4 has-background-polkadot"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            {title}
-          </h2>
-        </div>
+          {title}
+        </h2>
+      </div>
 
-        <Notifications gridItems={notifications} />
+      <Notifications gridItems={notifications} />
 
-        <SectionHeader text="Welcome" />
-
-        <section className="section">
-            <div className="container">
-                <p>
-                  Tayside Airgun Club was formed in the spring of 2000 by a
-                  group of like minded people who required a safe, secure and
-                  reliable place to shoot at static targets.
-                </p>
-
-                <p>
-                  Auchterhouse Country Sports was able to provide all of
-                  these and, thanks to their support, the Club has
-                  flourished, becoming one of Scotlands leading airgun clubs.
-                </p>
-
-                <p>
-                  We also hold Corporate Events on behalf of Auchterhouse Country Sports, and host youth organisation team bonding events. Corporate or bonding, these events can become very hotly contested.
-                  Several of our members compete, with some success, in Scottish HFT competitions.
-                </p>
-
-                <p>
-                  The Club is affiliated to Scottish Target Shooting, UK Association for Hunter Field Target, and National Small-Bore Rifle Association.
-                  Tayside Airgun Club is approved and certificated by Police Scotland.
-                </p>
-            </div>
-        </section>
+      <SectionHeader text="Welcome" />
 
       <section className="section">
-	  <div className="container has-text-centered">
-	      <h2 className="title">What does the club offer?</h2>
-	      <div className="columns">
-		  <div className="column">
-		      <div className="level">
-			  <div className="level-item">
-			      <figure className="image is-128x128">
-				  <img className="is-rounded" src="https://bulma.dev/placeholder/pictures/bg_circle.svg?primary=00d1b2" alt="" />
-			      </figure>
-			  </div>
-		      </div>
-		      <p className="block">
-                        We provide our members with a variety of shooting
-                        disciplines 24 hours per day, 365 days per year.
-		      </p>
-		  </div>
-		  <div className="column">
-		      <div className="level">
-			  <div className="level-item">
-			      <figure className="image is-128x128">
-				  <img className="is-rounded" src="https://bulma.dev/placeholder/pictures/bg_circle.svg?primary=00d1b2" alt="" />
-			      </figure>
-			  </div>
-		      </div>
-		      <p className="block">
-                        We have a full HFT 30 target course, laid out to
-                        UKAHFT specification, a 30 target plinking course,
-                        and a 45 yard indoor range.
-		      </p>
-		  </div>
-		  <div className="column">
-		      <div className="level">
-			  <div className="level-item">
-			      <figure className="image is-128x128">
-				  <img className="is-rounded" src="https://bulma.dev/placeholder/pictures/bg_circle.svg?primary=00d1b2" alt="" />
-			      </figure>
-			  </div>
-		      </div>
-		      <p className="block">
-                        There is a very active pistol section within the Club which
-                        meets every Friday evening and we meet every Sunday
-                        for outdoor rifle shooting.
-		      </p>
-		  </div>
-	      </div>
-	  </div>
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="container">
+              {intro.description}
+            </div>
+          </div>
+        </div>
       </section>
+
+      <Features gridItems={intro.blurbs} />
     </div>
 
     <section className="section section--gradient">

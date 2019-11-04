@@ -8,16 +8,20 @@ const NotificationGrid = ({ gridItems }) => (
     <SectionHeader text="Club Notifications" />
 
     <section className="section">
-      <div className="columns is-multiline notifications">
-        {gridItems.map(item => (
-          <div key={item.text} className="column is-6">
-            <section>
-              <div className={ `notification is-${item.type}` }>
-                <p>{item.text}</p>
+      <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <div className="columns is-multiline notifications">
+            {gridItems.map(item => (
+              <div key={item.text} className="column is-6">
+                <section>
+                  <div className={ `notification is-${item.type}` }>
+                    <p>{item.text}</p>
+                  </div>
+                </section>
               </div>
-            </section>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </section>
   </div>

@@ -8,6 +8,7 @@ import SectionHeader from '../components/SectionHeader'
 import Notifications from '../components/Notifications'
 import BlogRoll from '../components/BlogRoll'
 import Navbar from '../components/Navbar'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const IndexPageTemplate = ({
   image,
@@ -24,7 +25,7 @@ export const IndexPageTemplate = ({
       <div className="columns has-no-margin-bottom">
         <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
           <figure className="image is-128x128 has-margin-1">
-            <img src="img/tagc-logo.jpg" class="is-rounded" alt="Tayside Airgun Club Logo" />
+            <PreviewCompatibleImage imageInfo="img/tagc-logo.jpg" />
           </figure>
         </div>
         <div className="column is-vcentered is-centered is-10">
@@ -93,54 +94,6 @@ export const IndexPageTemplate = ({
 
       <Features gridItems={intro.blurbs} />
     </div>
-
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 )
 

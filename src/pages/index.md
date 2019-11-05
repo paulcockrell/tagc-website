@@ -1,20 +1,23 @@
 ---
 templateKey: index-page
-title: Formed in the spring of 2000 by a group of like minded people who required a safe, secure and reliable place to shoot at static targets.
+title: >-
+  Formed in the spring of 2000 by a group of like minded people who required a
+  safe, secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 heading: Great coffee with a conscience!
 subheading: Support sustainable farming while enjoying a cup
 notifications:
-  - type: info
-    text: >
-      Tayside Air Gun Club has a new website! We hope you find the new site
-      easy to navigate and find the information you are looking for. We try to
-      keep this site up to date with our club events and items for sale.
-  - type: primary
-    text: >
-      The course will be closed for a week from Monday 30 September until after the
-      HFT competition on Sunday 6 October.  This is to allow the course to redesigned
-      and set out.  Help is needed during this time, see the email from Alan Hume
+  - text: >
+      Tayside Air Gun Club has a new website! We hope you find the new site easy
+      to navigate and find the information you are looking for. We try to keep
+      this site up to date with our club events and items for sale.
+    type: info
+  - text: >
+      The course will be closed for a week from Monday 30 September until after
+      the HFT competition on Sunday 6 October.  This is to allow the course to
+      redesigned and set out.  Help is needed during this time, see the email
+      from Alan Hume
+    type: primary
 mainpitch:
   title: Why Kaldi
   description: >
@@ -29,29 +32,34 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/indoor-range.jpg
       text: >
-        We provide our members with a variety of shooting
-        disciplines 24 hours per day, 365 days per year.
-    - image: /img/coffee-gear.png
+        We provide our members with a variety of shooting disciplines 24 hours
+        per day, 365 days per year.
+    - image: /img/hft-course.jpg
       text: >
-        We have a full HFT 30 target course, laid out to
-        UKAHFT specification, a 30 target plinking course,
-        and a 45 yard indoor range.
-    - image: /img/tutorials.png
+        We have a full HFT 30 target course, laid out to UKAHFT specification, a
+        30 target plinking course, and a 45 yard indoor range.
+    - image: /img/air-pistol.png
       text: >
-        There is a very active pistol section within the Club which
-        meets every Friday evening and we meet every Sunday
-        for outdoor rifle shooting.
+        There is a very active pistol section within the Club which meets every
+        Friday evening and we meet every Sunday for outdoor rifle shooting.
   heading: What we offer
   description: >
-    Tayside Airgun Club was formed in the spring of 2000 by a group of like minded people who required a safe, secure and reliable place to shoot at static targets.
-    Auchterhouse Country Sports was able to provide all of these and, thanks to their support, the Club has flourished, becoming one of Scotlands leading airgun clubs.
+    Tayside Airgun Club was formed in the spring of 2000 by a group of like
+    minded people who required a safe, secure and reliable place to shoot at
+    static targets. Auchterhouse Country Sports was able to provide all of these
+    and, thanks to their support, the Club has flourished, becoming one of
+    Scotlands leading airgun clubs.
 
-    We also hold Corporate Events on behalf of Auchterhouse Country Sports, and host youth organisation team bonding events. Corporate or bonding, these events can become very hotly contested. Several of our members compete, with some success, in Scottish HFT competitions.
+    We also hold Corporate Events on behalf of Auchterhouse Country Sports, and
+    host youth organisation team bonding events. Corporate or bonding, these
+    events can become very hotly contested. Several of our members compete, with
+    some success, in Scottish HFT competitions.
 
-    The Club is affiliated to Scottish Target Shooting, UK Association for Hunter Field Target, and National Small-Bore Rifle Association. Tayside Airgun Club is approved and certificated by Police Scotland.
-
+    The Club is affiliated to Scottish Target Shooting, UK Association for
+    Hunter Field Target, and National Small-Bore Rifle Association. Tayside
+    Airgun Club is approved and certificated by Police Scotland.
 main:
   heading: Great coffee with no compromises
   description: >
@@ -69,3 +77,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+

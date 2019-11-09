@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import moment from 'moment'
 
 const Footer = class extends React.Component {

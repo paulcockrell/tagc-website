@@ -11,7 +11,7 @@ const SectionHeaderStyles = {
 const SectionHeader = ({ text, hasBackgroundImage = true }) => (
   <div
     className="section-wrapper"
-    style={(hasBackgroundImage == true ? SectionHeaderStyles : {})}
+    style={(hasBackgroundImage === true ? SectionHeaderStyles : {})}
   >
     <section className="section">
       <div className="columns">

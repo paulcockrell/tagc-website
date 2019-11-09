@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import SectionHeader from '../components/SectionHeader'
 
 const NotificationGrid = ({ header, gridItems }) => (

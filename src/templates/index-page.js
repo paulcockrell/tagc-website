@@ -1,18 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import moment from 'moment'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import SectionHeader from '../components/SectionHeader'
 import Notifications from '../components/Notifications'
-import BlogRoll from '../components/BlogRoll'
-import Navbar from '../components/Navbar'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
 
 export const IndexPageTemplate = ({
   image,
@@ -24,42 +17,6 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="content is-landing-page">
     <div>
-      <div className="columns has-no-margin has-no-margin-bottom">
-        <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
-          <figure className="image is-128x128 has-margin-1">
-            <PreviewCompatibleImage imageInfo={{ image: 'img/tagc-logo.jpg', alt: 'TAGC logo', style: { borderRadius: '290486px' } }} />
-          </figure>
-        </div>
-        <div className="column is-vcentered is-centered is-10">
-          <div className="tile is-ancestor is-flex-wrapped">
-            <div className="tile is-parent is-12 has-background-dark has-padding-2">
-              <div className="tile is-child has-padding-1">
-                <Navbar />
-              </div>
-            </div>
-            <div className="tile is-parent is-12 has-background-light">
-              <div className="tile is-child has-padding-1">
-                <div className="level">
-                  <div className="level-left">
-                    <div className="level-item">
-                      Tayside Air Gun Club, Auchterhouse, Perthshire
-                    </div>
-                    <div className="level-item">
-                      | enquires@taysideairgunclub.co.uk
-                    </div>
-                  </div>
-                  <div className="level-right">
-                    <div className="level-item is-size-7 is-italic">
-                        Updated: {moment().format('ll')}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div
         className="is-jumbotron full-width-image-container margin-top-0"
         style={{

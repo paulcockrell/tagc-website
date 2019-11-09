@@ -10,59 +10,20 @@ export const MembershipPageTemplate = ({ title, content, contentComponent }) => 
   const PageContent = contentComponent || Content
 
   return (
-    <div>
-      <div className="columns has-no-margin-bottom">
-        <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
-          <figure className="image is-128x128 has-margin-1">
-            <PreviewCompatibleImage imageInfo={{ image: 'img/tagc-logo.jpg', alt: 'TAGC logo', style: { borderRadius: '290486px' } }} />
-          </figure>
-        </div>
-        <div className="column is-vcentered is-centered is-10">
-          <div className="tile is-ancestor is-flex-wrapped">
-            <div className="tile is-parent is-12 has-background-dark has-padding-2">
-              <div className="tile is-child has-padding-1">
-                <Navbar />
-              </div>
-            </div>
-            <div className="tile is-parent is-12 has-background-light">
-              <div className="tile is-child has-padding-1">
-                <div className="level">
-                  <div className="level-left">
-                    <div className="level-item">
-                      Tayside Air Gun Club, Auchterhouse, Perthshire
-                    </div>
-                    <div className="level-item">
-                      | enquires@taysideairgunclub.co.uk
-                    </div>
-                  </div>
-                  <div className="level-right">
-                    <div className="level-item">
-                    F | T | Y
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="section">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                {title}
+              </h2>
+              <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
       </div>
-
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="section">
-                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  {title}
-                </h2>
-                <PageContent className="content" content={content} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </div>
+    </section>
   )
 }
 

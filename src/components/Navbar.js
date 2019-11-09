@@ -62,30 +62,21 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item has-text-weight-medium is-capitalized " to="/membership">
                 Membership
               </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/products">
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/committee">
                 Committee
               </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/blog">
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/news">
                 News
               </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/contact">
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/gallery">
                 Gallery
               </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/contact/examples">
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/for_sale">
                 For sale
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/contact/examples">
+                Contact us
+              </Link>
             </div>
           </div>
         </div>

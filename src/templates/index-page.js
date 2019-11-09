@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import moment from 'moment'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -9,6 +10,9 @@ import Notifications from '../components/Notifications'
 import BlogRoll from '../components/BlogRoll'
 import Navbar from '../components/Navbar'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
 
 export const IndexPageTemplate = ({
   image,
@@ -20,7 +24,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="content is-landing-page">
     <div>
-      <div className="columns has-no-margin-bottom">
+      <div className="columns has-no-margin has-no-margin-bottom">
         <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
           <figure className="image is-128x128 has-margin-1">
             <PreviewCompatibleImage imageInfo={{ image: 'img/tagc-logo.jpg', alt: 'TAGC logo', style: { borderRadius: '290486px' } }} />
@@ -45,8 +49,8 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <div className="level-right">
-                    <div className="level-item">
-                    F | T | Y
+                    <div className="level-item is-size-7 is-italic">
+                        Updated: {moment().format('ll')}
                     </div>
                   </div>
                 </div>

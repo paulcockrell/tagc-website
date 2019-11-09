@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import SectionHeader from '../components/SectionHeader'
 import Notifications from '../components/Notifications'
+import Content from '../components/Content'
 
 export const IndexPageTemplate = ({
   image,
@@ -45,7 +46,7 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="container">
-              {intro.description}
+              <Content className="paul" content={intro.description} />
             </div>
           </div>
         </div>
@@ -95,6 +96,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
         title
         image {

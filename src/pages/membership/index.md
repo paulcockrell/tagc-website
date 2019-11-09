@@ -1,5 +1,5 @@
 ---
-templateKey: 'membership-page'
+templateKey: 'basic-page'
 path: /membership
 title: Membership
 ---

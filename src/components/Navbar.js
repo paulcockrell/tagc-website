@@ -40,9 +40,9 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-	    <Link to="/" className="navbar-item has-text-weight-medium has-text-white is-capitalized" title="Logo">
-	      Tayside Air Gun Club
-	    </Link>
+            <Link to="/" className="navbar-item has-text-weight-medium has-text-white is-capitalized" title="Logo">
+              Tayside Air Gun Club
+            </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}

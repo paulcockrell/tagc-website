@@ -74,6 +74,7 @@ export const IndexPageTemplate = ({
             boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
             color: 'white',
             padding: '1rem',
+            maxWidth: '80%',
           }}
         >
           {title}

@@ -64,12 +64,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item has-text-weight-medium is-capitalized " to="/committee">
                 Committee
               </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/news">
-                News
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/gallery">
-                Gallery
-              </Link>
               <Link className="navbar-item has-text-weight-medium is-capitalized " to="/reports">
                 Reports
               </Link>
@@ -79,10 +73,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item has-text-weight-medium is-capitalized " to="/articles">
                 Articles
               </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/for_sale">
-                For sale
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/contact/examples">
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/contact">
                 Contact us
               </Link>
             </div>

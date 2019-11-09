@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import SectionHeader from '../components/SectionHeader'
 
-const NotificationGrid = ({ gridItems }) => (
+const NotificationGrid = ({ header, gridItems }) => (
   <div>
-    <SectionHeader text="Club Notifications" />
+    <SectionHeader text={header} />
 
+    <div className="is-primary is-info"></div>
     <section className="section">
       <div className="columns">
         <div className="column is-10 is-offset-1">
@@ -28,6 +29,7 @@ const NotificationGrid = ({ gridItems }) => (
 )
 
 NotificationGrid.propTypes = {
+  header: PropTypes.string,
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       type: PropTypes.string,

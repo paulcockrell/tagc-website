@@ -14,10 +14,8 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  subheading,
+  notificationsHeading,
   notifications,
-  mainpitch,
-  description,
   intro,
 }) => (
   <div className="content is-landing-page">
@@ -78,9 +76,9 @@ export const IndexPageTemplate = ({
         </h2>
       </div>
 
-      <Notifications gridItems={notifications} />
+      <Notifications header={notificationsHeading} gridItems={notifications} />
 
-      <SectionHeader text="Welcome" />
+      <SectionHeader text={intro.heading} />
 
       <section className="section">
         <div className="columns">
@@ -101,13 +99,8 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  subheading: PropTypes.string,
-  notices: PropTypes.shape({
-    type: PropTypes.string,
-    text: PropTypes.string,
-  }),
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
+  notificationsHeading: PropTypes.string,
+  notifications: PropTypes.array,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -122,10 +115,8 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+        notificationsHeading={frontmatter.notificationsHeading}
         notifications={frontmatter.notifications}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -155,16 +146,11 @@ export const pageQuery = graphql`
           }
         }
         heading
-        subheading
+        notificationsHeading
         notifications {
           type
           text
         }
-        mainpitch {
-          title
-          description
-        }
-        description
         intro {
           blurbs {
             image {

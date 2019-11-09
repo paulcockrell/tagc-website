@@ -76,6 +76,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item has-text-weight-medium is-capitalized " to="/links">
                 Links
               </Link>
+              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/articles">
+                Articles
+              </Link>
               <Link className="navbar-item has-text-weight-medium is-capitalized " to="/for_sale">
                 For sale
               </Link>

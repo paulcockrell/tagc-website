@@ -66,6 +66,13 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "reports-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/articles/index.md"
+        label: "Articles"
+        name: "articles"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "articles-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/links/index.md"
         label: "Links"
         name: "links"

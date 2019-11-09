@@ -1,20 +1,27 @@
 ---
-templateKey: 'links-page'
-path: /links
+templateKey: links-page
 title: Links
-description: >-
-  We have compiled a list of external links that you may find useful.
+description: We have compiled a list of external links that you may find useful.
 links:
-  - image: /img/coffee.png
+  - description: >-
+      For all things shooting. Corporate days etc. Good food at Auchterhouse
+      Country Sports.
     heading: Auchterhouse Country Sports
-    description: >-
-      For all things shooting. Corporate days etc.
-      Good food at Auchterhouse Country Sports.
-    url: http://www.auchterhousecountrysports.co.uk/
-  - image: /img/coffee.png
+    image: /img/auckterhouse.jpg
+    url: 'http://www.auchterhousecountrysports.co.uk/'
+  - description: >-
+      UK governing body for smallbore and air rifles. The Club is affiliated to
+      UKAHFT & shoots to their rules.
     heading: UKAHFT
-    description: >-
-      UK governing body for smallbore and air rifles.
-      The Club is affiliated to UKAHFT & shoots to their rules.
-    url: http://www.nsra.co.uk/
+    image: /img/ukahft.jpg
+    url: 'https://sites.google.com/site/ukahft/'
+  - description: UK governing body for smallbore and air rifles.
+    heading: National Small-bore Rifle Association
+    image: /img/nsra.jpg
+    url: 'https://www.nsra.co.uk/'
+  - description: Good food at Auchterhouse Country Sports.
+    heading: The Pear Tree
+    image: /img/thepeartree.jpg
+    url: 'http://www.peartreeauchterhouse.co.uk/'
 ---
+

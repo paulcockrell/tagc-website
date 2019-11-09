@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import LinkGrid from '../components/Link'
+import SectionHeader from '../components/SectionHeader'
 
 export const LinksPageTemplate = ({
   title,
@@ -10,19 +11,15 @@ export const LinksPageTemplate = ({
   links,
 }) => (
   <div className="content">
-    <h2
-      className="has-text-weight-bold is-size-1"
-      style={{
-        boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-        backgroundColor: '#f40',
-        color: 'white',
-        padding: '1rem',
-      }}
-    >
-      {title}
-    </h2>
-    <h3>{description}</h3>
-    <LinkGrid gridItems={links} />
+    <SectionHeader text={title} />
+    <section className="section section--gradient">
+      <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <p>{description}</p>
+          <LinkGrid gridItems={links} />
+        </div>
+      </div>
+    </section>
   </div>
 )
 

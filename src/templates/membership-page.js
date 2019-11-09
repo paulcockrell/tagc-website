@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Navbar from '../components/Navbar'
 
 export const MembershipPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content

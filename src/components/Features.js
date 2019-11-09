@@ -10,7 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
       <div className="columns">
         <div className="column is-10 is-offset-1">
           <div className="columns is-multiline">
-            {gridItems.map(item => (
+            {(gridItems||[]).map(item => (
               <div key={item.text} className="column">
                   <div className="level">
                       <div className="level-item">

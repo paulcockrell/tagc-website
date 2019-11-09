@@ -4,7 +4,6 @@ title: >-
   Formed in the spring of 2000 by a group of like minded people who required a
   safe, secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
-heading: Welcome
 notificationsHeading: Club Notifications
 notifications:
   - text: >

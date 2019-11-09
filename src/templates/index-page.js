@@ -10,7 +10,6 @@ import Notifications from '../components/Notifications'
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   notificationsHeading,
   notifications,
   intro,
@@ -60,7 +59,6 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   notificationsHeading: PropTypes.string,
   notifications: PropTypes.array,
   intro: PropTypes.shape({
@@ -76,7 +74,6 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         notificationsHeading={frontmatter.notificationsHeading}
         notifications={frontmatter.notifications}
         intro={frontmatter.intro}
@@ -107,7 +104,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
         notificationsHeading
         notifications {
           type

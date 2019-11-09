@@ -44,7 +44,7 @@ intro:
       text: >
         There is a very active pistol section within the Club which meets every
         Friday evening and we meet every Sunday for outdoor rifle shooting.
-  heading: What we offer
+  heading: Welcome
   description: >
     Tayside Airgun Club was formed in the spring of 2000 by a group of like
     minded people who required a safe, secure and reliable place to shoot at
@@ -52,10 +52,12 @@ intro:
     and, thanks to their support, the Club has flourished, becoming one of
     Scotlands leading airgun clubs.
 
+
     We also hold Corporate Events on behalf of Auchterhouse Country Sports, and
     host youth organisation team bonding events. Corporate or bonding, these
     events can become very hotly contested. Several of our members compete, with
     some success, in Scottish HFT competitions.
+
 
     The Club is affiliated to Scottish Target Shooting, UK Association for
     Hunter Field Target, and National Small-Bore Rifle Association. Tayside

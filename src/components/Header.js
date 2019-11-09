@@ -9,7 +9,7 @@ const Header = class extends React.Component {
       <div className="columns has-no-margin has-no-margin-bottom">
         <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
           <figure className="image is-128x128 has-margin-1">
-            <PreviewCompatibleImage imageInfo={{ image: 'img/tagc-logo.jpg', alt: 'TAGC logo', style: { borderRadius: '290486px' } }} />
+            <PreviewCompatibleImage imageInfo={{ image: '/img/tagc-logo.jpg', alt: 'TAGC logo', style: { borderRadius: '290486px' } }} />
           </figure>
         </div>
         <div className="column is-vcentered is-centered is-10">

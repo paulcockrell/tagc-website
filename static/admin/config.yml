@@ -45,7 +45,7 @@ collections:
               - {label: Type, name: type, widget: select, options: ["info", "primary"]}
               - {label: Text, name: text, widget: text}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: SubHeading, name: subheading, widget: string}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-      - file: "src/pages/membership.md"
+      - file: "src/pages/membership/index.md"
         label: "Membership"
         name: "membership"
         fields:

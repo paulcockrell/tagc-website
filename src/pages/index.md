@@ -1,8 +1,6 @@
 ---
 templateKey: index-page
-title: >-
-  Formed in the spring of 2000 by a group of like minded people who required a
-  safe, secure and reliable place to shoot at static targets.
+title: hi
 image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notifications
 notifications:
@@ -17,6 +15,8 @@ notifications:
       redesigned and set out.  Help is needed during this time, see the email
       from Alan Hume
     type: primary
+  - text: '123456'
+    type: info
 intro:
   blurbs:
     - image: /img/indoor-range.jpg
@@ -31,7 +31,6 @@ intro:
       text: >
         There is a very active pistol section within the Club which meets every
         Friday evening and we meet every Sunday for outdoor rifle shooting.
-  heading: Welcome
   description: >
     Tayside Airgun Club was formed in the spring of 2000 by a group of like
     minded people who required a safe, secure and reliable place to shoot at
@@ -49,5 +48,7 @@ intro:
     The Club is affiliated to Scottish Target Shooting, UK Association for
     Hunter Field Target, and National Small-Bore Rifle Association. Tayside
     Airgun Club is approved and certificated by Police Scotland.
+  heading: Welcome
+  subheading: What does the club offer?
 ---
 

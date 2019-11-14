@@ -1,6 +1,8 @@
 ---
 templateKey: index-page
-title: hi
+title: >-
+  Formed in the spring of 2000 by a group of like minded people who required a
+  safe, secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notifications
 notifications:
@@ -15,8 +17,6 @@ notifications:
       redesigned and set out.  Help is needed during this time, see the email
       from Alan Hume
     type: primary
-  - text: '123456'
-    type: info
 intro:
   blurbs:
     - image: /img/indoor-range.jpg

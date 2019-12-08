@@ -61,8 +61,8 @@ export const linksPageQuery = graphql`
         description
         links {
           heading
-	  description
-	  url
+          description
+          url
           image {
             childImageSharp {
               fluid(maxWidth: 240, quality: 64) {

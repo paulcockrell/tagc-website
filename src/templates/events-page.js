@@ -7,7 +7,7 @@ import Events from '../components/Events'
 export const EventsPageTemplate = ({
   title,
   description,
-  events,
+  events_list,
 }) => (
   <div className="content">
     <h2
@@ -31,7 +31,7 @@ export const EventsPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Events events={events} />
+              <Events events_list={events_list} />
             </div>
           </div>
         </div>
@@ -43,8 +43,8 @@ export const EventsPageTemplate = ({
 EventsPageTemplate.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  events: PropTypes.shape({
-    heading: PropTypes.string,
+  events_list: PropTypes.shape({
+    club: PropTypes.string,
     date: PropTypes.string,
     type: PropTypes.string,
     league: PropTypes.string
@@ -59,7 +59,7 @@ const EventsPage = ({ data }) => {
       <EventsPageTemplate
         title={frontmatter.title}
         description={frontmatter.description}
-        events={frontmatter.events}
+        events_list={frontmatter.events_list}
       />
     </Layout>
   )

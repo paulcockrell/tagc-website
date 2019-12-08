@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 
-const Events = ({ events }) => (
+const Events = ({ events_list }) => (
   <div>
-    {events.map(event => (
+    {events_list.map(event => (
       <article key={v4()} className="message">
         <div className="message-body">
           {event.club}
@@ -19,7 +19,7 @@ const Events = ({ events }) => (
 )
 
 Events.propTypes = {
-  events: PropTypes.arrayOf(
+  events_list: PropTypes.arrayOf(
     PropTypes.shape({
       club: PropTypes.string,
       type: PropTypes.string,

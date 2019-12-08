@@ -114,11 +114,11 @@ collections:
             name: events_list
             widget: list
             fields:
-              - label: Heading
-                name: heading
+              - label: Club
+                name: club
                 widget: string
               - label: Date
-                name: Date
+                name: date
                 widget: datetime
               - label: Type
                 name: type

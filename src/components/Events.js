@@ -7,7 +7,7 @@ const Events = ({ events }) => (
     {events.map(event => (
       <article key={v4()} className="message">
         <div className="message-body">
-          {event.title}
+          {event.club}
           {event.type}
           {event.league}
           <br />
@@ -21,7 +21,7 @@ const Events = ({ events }) => (
 Events.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.shape({
-      title: PropTypes.string,
+      club: PropTypes.string,
       type: PropTypes.string,
       league: PropTypes.string,
       date: PropTypes.string,

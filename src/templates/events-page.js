@@ -81,8 +81,8 @@ export const eventsPageQuery = graphql`
       frontmatter {
         title
         description
-        events {
-          heading
+        events_list {
+          club
           date
           type
           league

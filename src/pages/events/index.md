@@ -6,10 +6,6 @@ description: >-
   possible to represent our club. It is always great fun and we recommend you
   join us, all levels of experience are welcome.
 events_list:
-  - club: New Cali
-    date: 2019-12-08T12:07:57.858Z
-    league: UKAL
-    type: HFT
   - club: Tayside
     date: 2019-12-08T12:09:07.495Z
     league: SARC

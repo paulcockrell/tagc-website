@@ -3,14 +3,14 @@ import PropTypes from 'prop-types'
 import { EventsPageTemplate } from '../../templates/events-page'
 
 const EventsPagePreview = ({ entry }) => {
-  const entryEvents = entry.getIn(['data', 'events'])
-  const events = entryEvents ? entryEvents.toJS() : []
+  const entryEventsList = entry.getIn(['data', 'events_list'])
+  const events_list = entryEventsList ? entryEventsList.toJS() : []
 
   return (
     <EventsPageTemplate
       title={entry.getIn(['data', 'title'])}
       description={entry.getIn(['data', 'description'])}
-      events={events}
+      events_list={events_list}
     />
   )
 }

@@ -1,11 +1,27 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+
+const UNSELECTED_MENU_ITEM = "navbar-item has-text-weight-medium is-capitalized"
+const SELECTED_MENI_ITEM = `${UNSELECTED_MENU_ITEM} has-text-white`
+const MENU_ITEMS = [
+  "membership",
+  "events",
+  "committee",
+  "reports",
+  "links",
+  "articles",
+  "for sale",
+  "contact us",
+]
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
+
     this.state = {
       active: false,
+      navBarActiveMenuItem: props.navBarActiveMenuItem,
       navBarActiveClass: '',
     }
   }
@@ -30,7 +46,37 @@ const Navbar = class extends React.Component {
     )
   }
 
+  capitalizeFirstLetter([first, ...rest]) {
+    return first ? first.toUpperCase() + rest : ''
+  }
+
+  setMenuItemClass(menuItem) {
+    const {
+      navBarActiveMenuItem,
+    } = this.state
+
+    const menuItemClass = menuItem === navBarActiveMenuItem ? SELECTED_MENI_ITEM : UNSELECTED_MENU_ITEM
+
+    return menuItemClass
+  }
+
+  buildMenuItem(item) {
+    const menuItemClass = this.setMenuItemClass(item)
+    const menuItemPath = `/${item.replace(" ","_")}`
+    const menuItemLabel = this.capitalizeFirstLetter(item)
+
+    return (
+      <Link key={menuItemLabel} className={menuItemClass} to={menuItemPath}>
+        {menuItemLabel}
+      </Link>
+    )
+  }
+
   render() {
+    const {
+      navBarActiveClass,
+    } = this.state
+
     return (
       <nav
         className="navbar is-transparent "
@@ -44,7 +90,7 @@ const Navbar = class extends React.Component {
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar-burger burger ${navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -55,36 +101,20 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-menu ${navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/membership">
-                Membership
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/events">
-                Events
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/committee">
-                Committee
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/reports">
-                Reports
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/links">
-                Links
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/articles">
-                Articles
-              </Link>
-              <Link className="navbar-item has-text-weight-medium is-capitalized " to="/contact">
-                Contact us
-              </Link>
+              {MENU_ITEMS.map((item) => this.buildMenuItem(item))}
             </div>
           </div>
         </div>
       </nav>
     )
   }
+}
+
+Navbar.propTypes = {
+  navBarActiveMenuItem: PropTypes.string,
 }
 
 export default Navbar

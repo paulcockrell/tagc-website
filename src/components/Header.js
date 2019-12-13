@@ -1,10 +1,15 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import moment from 'moment'
 import Navbar from '../components/Navbar'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const Header = class extends React.Component {
   render() {
+    const {
+      navBarActiveMenuItem
+    } = this.props
+
     return (
       <div className="columns has-no-margin has-no-margin-bottom">
         <div className="column has-background-primary is-vcentered is-centered is-mobile is-2 logo-container is-flex">
@@ -16,7 +21,7 @@ const Header = class extends React.Component {
           <div className="tile is-ancestor is-flex-wrapped">
             <div className="tile is-parent is-12 has-background-dark has-padding-2">
               <div className="tile is-child has-padding-1">
-                <Navbar />
+                <Navbar navBarActiveMenuItem={navBarActiveMenuItem} />
               </div>
             </div>
             <div className="tile is-parent is-12 has-background-light">
@@ -45,4 +50,7 @@ const Header = class extends React.Component {
   }
 }
 
+Header.propTypes = {
+  navBarActiveMenuItem: PropTypes.string,
+}
 export default Header

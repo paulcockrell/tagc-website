@@ -12,14 +12,14 @@ const LinkGrid = ({ gridItems }) => (
                 <div className="level">
                     <div className="level-item">
                         <figure className="image is-128x128">
-                            <a href={item.url} alt={item.heading} target="_BLANK">
+                            <a href={item.url} alt={item.heading} rel="noopener noreferrer" target="_BLANK">
                               <PreviewCompatibleImage imageInfo={item} />
                             </a>
                         </figure>
                     </div>
                 </div>
                 <p className="block">
-                  <a href={item.url} alt={item.heading} target="_BLANK">
+                  <a href={item.url} alt={item.heading} rel="noopener noreferrer" target="_BLANK">
                     <span className="is-capitalized has-text-weight-medium">{item.heading}</span>
                   </a>
                 </p>

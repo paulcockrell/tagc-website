@@ -71,6 +71,7 @@ export const forSalePageQuery = graphql`
             }
           }
           price
+          seller_name
         }
       }
     }

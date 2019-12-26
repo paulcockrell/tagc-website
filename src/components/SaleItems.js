@@ -53,6 +53,7 @@ SaleItems.propTypes = {
       description: PropTypes.string,
       images: PropTypes.array,
       price: PropTypes.string,
+      seller_name: PropTypes.string,
     })
   ),
 }

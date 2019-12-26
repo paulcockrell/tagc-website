@@ -111,6 +111,23 @@ collections:
               - label: League
                 name: league
                 widget: string
+              - label: Results
+                name: results
+                widget: list
+                fields: 
+                  - label: Group
+                    name: group
+                    widget: string
+                  - label: Participants
+                    name: participants
+                    widget: list
+                    fields:
+                      - label: Name
+                        name: name
+                        widget: string
+                      - label: Score
+                        name: score
+                        widget: string
       - file: "src/pages/for_sale/index.md"
         label: "For Sale"
         name: "for_sale"

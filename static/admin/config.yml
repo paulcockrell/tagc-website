@@ -118,8 +118,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "for-sale-page"}
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
-          - label: "Sale List"
-            name: sale_list
+          - label: "Sale Items"
+            name: sale_items
             widget: list
             fields:
               - label: Title
@@ -131,9 +131,12 @@ collections:
               - label: Price
                 name: price
                 widget: string
-              - label: Image,
-                name: image,
+              - label: Image
+                name: image
                 widget: image
+              - label: 'Seller name'
+                name: seller_name
+                widget: string
               - label: Date
                 name: date
                 widget: datetime

@@ -60,10 +60,16 @@ export const forSalePageQuery = graphql`
         title
         description
         sale_items {
-          date
+          date(formatString: "MMMM DD, YYYY")
           title
           description
-          image
+          image {
+            childImageSharp {
+              fluid(maxWidth: 526, quality: 92) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           price
         }
       }

@@ -13,12 +13,12 @@ sale_items:
       bag
     image: /img/aas400.jpg
     price: '350'
-    seller_name: 'John Doe'
+    seller_name: Johnny Doe
   - date: 2019-12-26T15:27:36.263Z
     title: Airmax PCP Pistol
     description: 'Mrodair PCP Pistol for sale, only used twice'
     image: /img/pcp-pistol.jpg
     price: '200'
-    seller_name: 'Jane Doe'
+    seller_name: Janey Doe
 ---
 

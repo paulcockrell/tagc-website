@@ -13,5 +13,10 @@ sale_list:
       bag
     'image,': /img/aas400.jpg
     price: '350'
+  - date: 2019-12-26T15:27:36.263Z
+    title: Airmax PCP Pistol
+    description: 'Mrodair PCP Pistol for sale, only used twice'
+    'image,': /img/pcp-pistol.jpg
+    price: '200'
 ---
 

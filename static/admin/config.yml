@@ -125,6 +125,9 @@ collections:
                       - label: Name
                         name: name
                         widget: string
+                      - label: Club
+                        name: club
+                        widget: string
                       - label: Score
                         name: score
                         widget: string

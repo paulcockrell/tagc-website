@@ -111,3 +111,29 @@ collections:
               - label: League
                 name: league
                 widget: string
+      - file: "src/pages/for_sale/index.md"
+        label: "For Sale"
+        name: "for_sale"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "for-sale-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+          - label: "Sale List"
+            name: sale_list
+            widget: list
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Description
+                name: description
+                widget: string
+              - label: Price
+                name: price
+                widget: string
+              - label: Image,
+                name: image,
+                widget: image
+              - label: Date
+                name: date
+                widget: datetime

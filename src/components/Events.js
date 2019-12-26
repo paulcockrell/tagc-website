@@ -38,7 +38,7 @@ const Events = ({ events_list }) => {
         style={modalStyles}
         contentLabel="Modal"
         closeTimeoutMS={modalCloseTimeout}>
-        {modal}
+        <div>Hello</div>
       </Modal>
       <table className="table is-bordered is-striped is-fullwidth">
         <thead>

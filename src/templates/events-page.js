@@ -64,6 +64,13 @@ export const eventsPageQuery = graphql`
           date
           type
           league
+          results {
+            group
+            participants {
+              name
+              score
+            }
+          }
         }
       }
     }

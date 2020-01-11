@@ -51,6 +51,12 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "articles-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Article PDF"
+            name: "article_pdf"
+            widget: "file"
+            media_library:
+              config:
+                multiple: true
       - file: "src/pages/links/index.md"
         label: "Links"
         name: "links"
@@ -101,28 +107,9 @@ collections:
                 name: results
                 widget: list
                 fields: 
-                  - label: "Results PDF"
-                    name: "results_pdf"
-                    widget: "file"
-                    media_library:
-                      config:
-                        multiple: true
-                  - label: Group
-                    name: group
-                    widget: string
-                  - label: Participants
-                    name: participants
-                    widget: list
-                    fields:
-                      - label: Name
-                        name: name
-                        widget: string
-                      - label: Club
-                        name: club
-                        widget: string
-                      - label: Score
-                        name: score
-                        widget: string
+                  - label: Image
+                    name: image
+                    widget: image
       - file: "src/pages/for_sale/index.md"
         label: "For Sale"
         name: "for_sale"

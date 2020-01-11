@@ -28,7 +28,7 @@ export const ArticlesPageTemplate = ({
                   <ul>
                     {articles.map(article => (
                       <li key={v4()}>
-                        <a href={article["article"]["publicURL"]}>FART</a>
+                        <a href={article["article"]["publicURL"]}>{article["article"]["name"]}</a>
                       </li>
                     ))}
                   </ul>
@@ -85,6 +85,7 @@ export const articlesPageQuery = graphql`
             publicURL
             relativeDirectory
             dir
+            name
           }
         }
       }

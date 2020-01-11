@@ -1,9 +1,9 @@
 ---
-templateKey: basic-page
+templateKey: articles-page
 title: Articles
 articles:
-  - undefined: /img/sample.pdf
-  - undefined: /img/sample.pdf
+  - article: /img/sample.pdf
+  - article: /img/sample.pdf
 ---
 The articles published on this page are by Club members for the use and information of other club members.
 
@@ -12,5 +12,3 @@ They first appeared on the old Club website and it was thought appropriate that 
 To see them, you will require Adobe Reader or some other reader able to read .pdf files.
 
 Adobe Reader can be downloaded, if necessary, from [http://get.adobe.com/reader/](http://get.adobe.com/reader/)
-
-_There are currently no published articles_

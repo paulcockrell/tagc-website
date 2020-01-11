@@ -62,7 +62,8 @@ collections:
             name: articles
             widget: list
             fields:
-              - label: "Article PDF"
+              - label: "Article"
+                name: "article"
                 widget: "file"
                 media_library:
                   config:

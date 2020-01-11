@@ -62,6 +62,9 @@ collections:
             name: articles
             widget: list
             fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
               - label: "Article"
                 name: "article"
                 widget: "file"

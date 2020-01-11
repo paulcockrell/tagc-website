@@ -11,7 +11,6 @@ export const EventsPageTemplate = ({
   events_list,
 }) => (
   <div className="content">
-    <div id="eventResults"></div>
     <SectionHeader text={title} />
     <section className="section section--gradient">
       <div className="columns">

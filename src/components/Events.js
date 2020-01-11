@@ -5,7 +5,7 @@ import moment from 'moment'
 import Modal from 'react-modal'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-Modal.setAppElement('#eventResults')
+Modal.setAppElement('#___gatsby')
 
 const modalStyles = {
   overlay: {
@@ -42,7 +42,6 @@ const Events = ({ events_list }) => {
 
   return (
     <div>
-      <div id="eventResults"></div>
       <Modal
         isOpen={modal}
         onRequestClose={toggleModal}

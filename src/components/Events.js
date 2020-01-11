@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import moment from 'moment'
 import Modal from 'react-modal'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 if (document.getElementById('eventResults')) {
   Modal.setAppElement('#eventResults')
@@ -12,15 +13,21 @@ const modalStyles = {
   overlay: {
     backgroundColor: "rgba(0, 0, 0, 0.58)",
     zIndex: 999,
+    position: "fixed",
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0
   },
   content: {
-    position: "relative",
-    top: "auto",
-    left: "auto",
-    right: "auto",
-    bottom: "auto",
+    position: "absolute",
+    top: "20px",
+    left: "20px",
+    right: "20px",
+    bottom: "20px",
     maxWidth: "960px",
-    margin: "32px auto",
+    maxHeight: "95%",
+    margin: "auto auto",
     padding: "10px",
     border: 0,
   }
@@ -45,39 +52,17 @@ const Events = ({ events_list }) => {
         contentLabel="Modal"
         closeTimeoutMS={modalCloseTimeout}>
         {modal &&
-          modalContent.map(results => (
+          modalContent.map(resultImgSrc => (
             <div key={v4()}>
-              <h1 className="has-text-weight-semibold is-size-5 heading">{results.group}</h1>
-              <div className="table-container">
-                <table className="table is-bordered is-striped is-fullwidth">
-                  <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Club</th>
-                      <th>Score</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {results && results.participants.map(participant => (
-                      <tr key={v4()}>
-                        <td>
-                          {participant.name}
-                        </td>
-                        <td>
-                          {participant.club}
-                        </td>
-                        <td>
-                          {participant.score}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <button onClick={toggleModal}>Close results</button>
+              <PreviewCompatibleImage imageInfo={resultImgSrc} />
             </div>
           ))
         }
       </Modal>
+      <p className="is-hidden-tablet">
+        <i>Scroll right to view the whole table.</i>
+      </p>
       <div className="table-container">
         <table className="table is-bordered is-striped is-fullwidth">
           <thead>

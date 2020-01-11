@@ -66,11 +66,12 @@ export const eventsPageQuery = graphql`
           type
           league
           results {
-            group
-            participants {
-              name
-              score
-              club
+            image {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }

@@ -101,6 +101,12 @@ collections:
                 name: results
                 widget: list
                 fields: 
+                  - label: "Results PDF"
+                    name: "results_pdf"
+                    widget: "file"
+                    media_library:
+                      config:
+                        multiple: true
                   - label: Group
                     name: group
                     widget: string

@@ -58,12 +58,15 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "articles-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Article PDF"
-            name: "article_pdf"
-            widget: "file"
-            media_library:
-              config:
-                multiple: true
+          - label: Articles
+            name: articles
+            widget: list
+            fields:
+              - label: "Article PDF"
+                widget: "file"
+                media_library:
+                  config:
+                    multiple: false
       - file: "src/pages/links/index.md"
         label: "Links"
         name: "links"

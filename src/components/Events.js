@@ -4,7 +4,9 @@ import { v4 } from 'uuid'
 import moment from 'moment'
 import Modal from 'react-modal'
 
-Modal.setAppElement(`#___gatsby`)
+if (document.getElementById('eventResults')) {
+  Modal.setAppElement('#eventResults')
+}
 
 const modalStyles = {
   overlay: {

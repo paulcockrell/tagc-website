@@ -147,7 +147,7 @@ collections:
                 widget: string
               - label: Description
                 name: description
-                widget: string
+                widget: text
               - label: Price
                 name: price
                 widget: string

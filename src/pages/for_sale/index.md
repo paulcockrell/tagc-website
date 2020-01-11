@@ -2,20 +2,13 @@
 templateKey: for-sale-page
 title: For Sale
 description: >-
-  .The club has a variety of items for sale from its club members. If you are
+  The club has a variety of items for sale from its club members. If you are
   interested in any thing then please contact us via the contact form or by
-  querying the club member directly.
+  querying the club member directly. It is the SELLER'S responsibility to ensure
+  that any sale is legal.   In particular, It is ILLEGAL to sell any type of
+  airgun to anyone who lives in Scotland unless they are 18 or over and have a
+  current Air Weapons Licence.
 sale_items:
-  - date: 2020-01-06T12:08:02.759Z
-    title: >-
-      It is the SELLER'S responsibility to ensure that any sale is legal.   In
-      particular, It is ILLEGAL to sell any type of airgun to anyone who lives
-      in Scotland unless they are 18 or over and have a current Air Weapons
-      Licence.
-    description: .
-    image: /img/aas400.jpg
-    price: .
-    seller_name: .
   - date: 2019-12-26T15:23:02.844Z
     title: Air Arms S400
     description: >-

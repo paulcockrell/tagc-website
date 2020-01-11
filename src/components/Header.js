@@ -31,8 +31,8 @@ const Header = class extends React.Component {
                     <div className="level-item">
                       Tayside Air Gun Club, Auchterhouse, Perthshire
                     </div>
-                    <div className="level-item">
-                      | enquires@taysideairgunclub.co.uk
+                    <div className="level-item is-hidden-touch">
+                      |&nbsp;&nbsp;<a href="/contact_us" alt="Contact us">tagcenquires@outlook.com</a>
                     </div>
                   </div>
                   <div className="level-right">

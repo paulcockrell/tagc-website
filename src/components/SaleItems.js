@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
-import { Link } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const SaleItems = ({ sale_items }) => (

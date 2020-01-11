@@ -10,16 +10,7 @@ events_list:
     date: 2019-12-08T12:09:07.495Z
     league: SARC
     results:
-      - group: Womens PCP
-        participants:
-          - club: Tayside
-            name: Jane Doe
-            score: '100'
-      - group: Mens
-        participants:
-          - club: Cloybank
-            name: John Doe
-            score: '99'
+      - image: /img/apple-touch-icon.png
     type: Open sights
   - club: Cloybank
     date: 2019-12-12T13:54:58.617Z

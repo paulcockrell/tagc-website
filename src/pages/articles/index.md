@@ -1,7 +1,7 @@
 ---
-templateKey: 'basic-page'
-path: /articles
+templateKey: basic-page
 title: Articles
+article_pdf: /img/sample.pdf
 ---
 The articles published on this page are by Club members for the use and information of other club members.
 

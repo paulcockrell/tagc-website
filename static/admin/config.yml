@@ -123,8 +123,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "for-sale-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: markdown}
-          - {label: Description2, name: body, widget: markdown}
+          - {label: Description, name: body, widget: markdown}
           - label: "Sale Items"
             name: sale_items
             widget: list

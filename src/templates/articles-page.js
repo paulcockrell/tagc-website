@@ -13,7 +13,7 @@ export const ArticlesPageTemplate = ({
   articles
 }) => {
   const PageContent = contentComponent || Content
-
+document.articles = articles
   return (
     <div className="content">
       <SectionHeader text={title} />
@@ -28,7 +28,7 @@ export const ArticlesPageTemplate = ({
                   <ul>
                     {articles.map(article => (
                       <li key={v4()}>
-                        <a href={article["article"]["publicURL"]}>{article["article"]["name"]}</a>
+                        <a href={article["file"]["publicURL"]}>{article["title"]}</a>
                       </li>
                     ))}
                   </ul>
@@ -80,7 +80,8 @@ export const articlesPageQuery = graphql`
       frontmatter {
         title
         articles {
-          article {
+          title
+          file {
             id
             publicURL
             relativeDirectory

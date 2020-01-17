@@ -4,7 +4,7 @@ title: >-
   Formed in the spring of 2000 by a group of like minded people who required a
   safe, secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
-notificationsHeading: Club Notifications
+notificationsHeading: Club Notices
 notifications:
   - text: >
       This is Tayside Airgun Club's new website! It is still a work in progress

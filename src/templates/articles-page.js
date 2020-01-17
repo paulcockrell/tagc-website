@@ -13,7 +13,7 @@ export const ArticlesPageTemplate = ({
   articles
 }) => {
   const PageContent = contentComponent || Content
-document.articles = articles
+
   return (
     <div className="content">
       <SectionHeader text={title} />

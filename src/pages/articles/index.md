@@ -2,8 +2,6 @@
 templateKey: articles-page
 title: Articles
 articles:
-  - article: /img/sample.pdf
-  - article: /img/sample.pdf
   - article: /img/22-or-.177.pdf
 ---
 The articles published on this page are by Club members for the use and information of other club members.

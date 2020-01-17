@@ -2,7 +2,8 @@
 templateKey: articles-page
 title: Articles
 articles:
-  - article: /img/22-or-.177.pdf
+  - file: /img/22-or-.177.pdf
+    title: How do I setup my telescopic sight and should I buy a 177 or 22?
 ---
 The articles published on this page are by Club members for the use and information of other club members.
 

@@ -15,13 +15,13 @@ notifications:
       We hope you find the new site easy to navigate and find the information
       you are looking for and once officially launched, will keep this site up
       to date with our club events and items for sale.
-    type: info
+    type: primary
   - text: >
       The course will be closed for a week from Monday 30 September until after
       the HFT competition on Sunday 6 October.  This is to allow the course to
       redesigned and set out.  Help is needed during this time, see the email
       from Alan Hume
-    type: primary
+    type: info
 intro:
   blurbs:
     - image: /img/indoor-range.jpg

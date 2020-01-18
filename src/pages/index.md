@@ -17,10 +17,9 @@ notifications:
       to date with our club events and items for sale.
     type: primary
   - text: >
-      The course will be closed for a week from Monday 30 September until after
-      the HFT competition on Sunday 6 October.  This is to allow the course to
-      redesigned and set out.  Help is needed during this time, see the email
-      from Alan Hume
+      Please remember to collect your membership cards from the Barn.  If you
+      have any problems, please contact Bill Gordon, either at the club or
+      through the Contacts page.
     type: info
 intro:
   blurbs:

@@ -19,7 +19,7 @@ notifications:
   - text: >
       Please remember to collect your membership cards from the Barn.  If you
       have any problems, please contact Bill Gordon, either at the club or
-      through the Contacts page.
+      through the Contact Us page.
     type: info
 intro:
   blurbs:

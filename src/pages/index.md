@@ -17,9 +17,9 @@ notifications:
       to date with our club events and items for sale.
     type: primary
   - text: >
-      MEMBERSHIP CARDS        Please remember to collect your membership cards
-      from the Barn.  If you have any problems, please contact Bill Gordon,
-      either at the club or through the Contact Us page.
+      MEMBERSHIP CARDS - Please remember to collect your membership cards from
+      the Barn.  If you have any problems, please contact Bill Gordon, either at
+      the club or through the Contact Us page.
     type: info
 intro:
   blurbs:

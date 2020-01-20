@@ -12,9 +12,11 @@ events_list:
     results:
       - image: /img/knockdown-2019.jpg
     type: Annual Knockdown
-  - club: Cloybank
-    date: 2019-12-12T13:54:58.617Z
-    league: Open
-    type: HFT
+  - club: Tayside
+    date: 2019-05-26T12:54:58.617Z
+    league: Club
+    results:
+      - image: /img/springer-2019.png
+    type: Springer competition
 ---
 

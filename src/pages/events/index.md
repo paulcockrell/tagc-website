@@ -18,5 +18,11 @@ events_list:
     results:
       - image: /img/springer-2019.png
     type: Springer competition
+  - club: Tayside
+    date: 2019-04-21T10:00:26.315Z
+    league: Club
+    results:
+      - image: /img/easter-2019.png
+    type: Easter fun shoots
 ---
 

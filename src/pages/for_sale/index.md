@@ -7,7 +7,7 @@ sale_items:
       A real collector's item.  Serial number 954, which dates it to the early
       1900's.
     image: /img/webley-pistol.jpg
-    price: £200 or very near offer
+    price: £200
     seller_name: Contact Ron or Kathleen at the Club
     title: WEBLEY SENIOR 0.177 PISTOL
 ---

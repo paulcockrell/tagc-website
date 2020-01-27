@@ -7,7 +7,8 @@ sale_items:
       A real collector's item.  Serial number 954, which dates it to the early
       1900's.  The grips are brown Bakelite.  There is surface corrosion on the
       trigger, which would polish out.  The pistol still shoots well and has
-      plenty of power.  The seller is open to very close offers.
+      plenty of power.  The seller is asking £200 but is open to very near
+      offers.
     image: /img/webley-pistol.jpg
     price: '200'
     seller_name: Contact Ron or Kathleen at the Club

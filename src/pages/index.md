@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 title: >-
-  Formed in the spring of 2000 by a group of like minded people who needed a
-  safe, secure and reliable place to shoot at static targets.
+  Formed in the spring of 2000 by a group of like minded people as a safe,
+  secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:

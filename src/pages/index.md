@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: >-
-  Formed in the spring of 2000 by a group of like minded people who required a
+  Formed in the spring of 2000 by a group of like minded people who needed a
   safe, secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
@@ -44,10 +44,10 @@ intro:
     Scotland's leading airgun clubs.
 
 
-    We also hold Corporate Events on behalf of Auchterhouse Country Sports, and
-    host youth organisation team bonding events. Corporate or bonding, these
-    events can become very hotly contested. Several of our members compete, with
-    some success, in Scottish HFT competitions and in STS pistol events.
+    As well as regular club meetings and competitions, several of our members
+    compete, with some success, in Scottish HFT competitions and in STS pistol
+    events. We also hold Corporate Events on behalf of Auchterhouse Country
+    Sports, and host youth organisation team bonding events. 
 
 
     The Club is affiliated to Scottish Target Shooting, UK Association for

@@ -26,5 +26,3 @@ See <https://www.mygov.scot/air-weapon/> or contact the club if in doubt.
 There are restrictions on the possession and use of air guns for people under the age of 18 and further restrictions for those under the age of 14.  In particular, under-18's cannot buy, hire or own an air gun but they can use one under supervision.
 
 See <https://www.mygov.scot/air-weapon/>or contact the club if in doubt.
-
-<http://www.airarmsownersclub.com/>

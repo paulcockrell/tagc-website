@@ -17,7 +17,7 @@ The law makes no distinction between air guns and more powerful guns and all are
 
 ### Licensing
 
-You must have an  Air Weapons Licence (AWL) to own or transport an airgun in Scotland, but most people can use an airgun without an AWL, under supervision, at a recognised club like Tayside.
+You must be 18 or over and have an  Air Weapons Licence (AWL) to own or transport an airgun in Scotland, but most people can use an airgun without an AWL, under supervision, at a recognised club like Tayside.
 
 See <https://www.mygov.scot/air-weapon/> or contact the club if in doubt.
 

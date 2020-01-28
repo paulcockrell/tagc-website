@@ -3,7 +3,7 @@ templateKey: index-page
 title: >-
   Formed in the spring of 2000 by a group of like minded people as a safe,
   secure and reliable place to shoot at static targets.
-image: /img/hft-jumbotron.jpg
+image: /img/panorama-2.jpg
 notificationsHeading: Club Notices
 notifications:
   - text: >
@@ -31,7 +31,7 @@ intro:
       text: >
         We have a full HFT 30 target course, laid out to STS specification, a 30
         target plinking course, an outdoor plinking range and a 45 yard indoor
-        range open 24x7.
+        range.
     - image: /img/air-pistol.png
       text: >
         There is a very active pistol section which meets every Friday evening

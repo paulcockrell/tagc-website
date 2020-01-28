@@ -31,11 +31,11 @@ intro:
       text: >
         We have a full HFT 30 target course, laid out to STS specification, a 30
         target plinking course, an outdoor plinking range and a 45 yard indoor
-        range.
+        range open 24x7.
     - image: /img/air-pistol.png
       text: >
-        There is a very active pistol section within the Club which meets every
-        Friday evening and we meet every Sunday for outdoor rifle shooting.
+        There is a very active pistol section which meets every Friday evening
+        and we meet every Sunday for outdoor rifle shooting.
   description: >
     Tayside Airgun Club was formed in the spring of 2000 by a group of like
     minded people who needed a safe, secure and reliable place to shoot at

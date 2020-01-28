@@ -12,9 +12,9 @@ notifications:
       browse the unfinished product.
 
 
-      We hope you find the new site easy to navigate and find the information
-      you are looking for and once officially launched, will keep this site up
-      to date with our club events and items for sale.
+      We hope you find the new site easy to navigate and that you find the
+      information you are looking for.  Once officially launched, we will keep
+      the site up to date including club news, events and items for sale.
     type: primary
   - text: >
       MEMBERSHIP CARDS - Please remember to collect your membership cards from
@@ -47,11 +47,11 @@ intro:
     As well as regular club meetings and competitions, several of our members
     compete, with some success, in Scottish HFT competitions and in STS pistol
     events. We also hold Corporate Events on behalf of Auchterhouse Country
-    Sports, and host youth organisation team bonding events. 
+    Sports, and host youth organisation and team bonding events. 
 
 
-    The Club is affiliated to Scottish Target Shooting, UK Association for
-    Hunter Field Target, and National Small-Bore Rifle Association. Tayside
+    The Club is affiliated to Scottish Target Shooting, the UK Association for
+    Hunter Field Target, and the National Small-Bore Rifle Association. Tayside
     Airgun Club is approved and certificated by Police Scotland.
   heading: Welcome
   subheading: What does the club offer?

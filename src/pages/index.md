@@ -3,7 +3,7 @@ templateKey: index-page
 title: >-
   Formed in the spring of 2000 by a group of like minded people as a safe,
   secure and reliable place to shoot at static targets.
-image: /img/panorama-2.jpg
+image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:
   - text: >

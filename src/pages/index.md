@@ -44,10 +44,10 @@ intro:
     Scotland's leading airgun clubs.
 
 
-    As well as regular club meetings and competitions, several of our members
-    compete, with some success, in Scottish HFT competitions and in STS pistol
-    events. We also hold Corporate Events on behalf of Auchterhouse Country
-    Sports, and host youth organisation and team bonding events. 
+    As well as regular club meetings and competitions several of our members
+    compete, with some success, in Scottish HFT competitions and in various
+    pistol events. We also hold Corporate Events on behalf of Auchterhouse
+    Country Sports, and host youth organisation and team bonding events. 
 
 
     The Club is affiliated to Scottish Target Shooting, the UK Association for

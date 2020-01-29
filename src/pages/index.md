@@ -30,7 +30,7 @@ intro:
     - image: /img/hft-course.jpg
       text: >
         We have a full HFT 30 target course, laid out to STS specification, a 30
-        target plinking course, an outdoor plinking range and a 45 yard indoor
+        target plinking course, an outdoor plinking range and a 35 yard indoor
         range.
     - image: /img/air-pistol.png
       text: >
@@ -50,9 +50,8 @@ intro:
     Country Sports, and host youth organisation and team bonding events. 
 
 
-    The Club is affiliated to Scottish Target Shooting, the UK Association for
-    Hunter Field Target, and the National Small-Bore Rifle Association. Tayside
-    Airgun Club is approved and certificated by Police Scotland.
+    The Club is affiliated to Scottish Target Shooting and is approved and
+    certificated by Police Scotland.
   heading: Welcome
   subheading: What does the club offer?
 ---

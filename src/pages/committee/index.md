@@ -1,5 +1,6 @@
 ---
 templateKey: 'basic-page'
+pageId: committee
 path: /committee
 title: Committee 2019/2020
 ---

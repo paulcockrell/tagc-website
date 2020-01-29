@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import SectionHeader from '../../components/SectionHeader'
 
 export default () => (
-  <Layout>
+  <Layout pageId="contact us">
     <div className="content">
       <SectionHeader text={"Thank you!"} />
       <section className="section section--gradient">

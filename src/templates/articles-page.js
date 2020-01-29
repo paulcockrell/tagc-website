@@ -52,7 +52,7 @@ const ArticlesPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout pageId={post.frontmatter.pageId}>
       <ArticlesPageTemplate
         title={post.frontmatter.title}
         content={post.html}
@@ -79,6 +79,7 @@ export const articlesPageQuery = graphql`
       html
       frontmatter {
         title
+	pageId
         articles {
           title
           file {

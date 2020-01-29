@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-const UNSELECTED_MENU_ITEM = "navbar-item has-text-weight-medium is-capitalized"
-const SELECTED_MENI_ITEM = `${UNSELECTED_MENU_ITEM} has-text-white`
+const UNSELECTED_MENU_ITEM = "navbar-item has-text-weight-medium has-text-white is-capitalized"
+const SELECTED_MENU_ITEM = `${UNSELECTED_MENU_ITEM} has-text-primary`
 const MENU_ITEMS = [
   "membership",
   "events",
@@ -55,7 +55,7 @@ const Navbar = class extends React.Component {
       navBarActiveMenuItem,
     } = this.state
 
-    const menuItemClass = menuItem === navBarActiveMenuItem ? SELECTED_MENI_ITEM : UNSELECTED_MENU_ITEM
+    const menuItemClass = menuItem === navBarActiveMenuItem ? SELECTED_MENU_ITEM : UNSELECTED_MENU_ITEM
 
     return menuItemClass
   }
@@ -75,6 +75,7 @@ const Navbar = class extends React.Component {
   render() {
     const {
       navBarActiveClass,
+      navBarActiveMenuItem,
     } = this.state
 
     return (
@@ -85,8 +86,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item has-text-weight-medium has-text-white is-capitalized" title="Logo">
-              Tayside Air Gun Club
+            <Link to="/" className={`navbar-item has-text-weight-medium is-capitalized ${navBarActiveMenuItem === "home" ? 'has-text-primary' : 'has-text-white'}`} title="Tayside Airgun Club home page">
+              Tayside Airgun Club
             </Link>
             {/* Hamburger menu */}
             <div

@@ -32,7 +32,7 @@ LinksPageTemplate.propTypes = {
 const LinksPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   return (
-    <Layout>
+    <Layout pageId={frontmatter.pageId}>
       <LinksPageTemplate
         title={frontmatter.title}
         description={frontmatter.description}
@@ -58,6 +58,7 @@ export const linksPageQuery = graphql`
       html
       frontmatter {
         title
+	pageId
         description
         links {
           heading

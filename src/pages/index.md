@@ -1,5 +1,6 @@
 ---
 templateKey: index-page
+pageId: home
 title: >-
   Formed in the spring of 2000 by a group of like minded people as a safe,
   secure and reliable place to shoot at static targets.

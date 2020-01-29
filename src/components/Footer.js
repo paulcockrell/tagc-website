@@ -8,7 +8,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <div className="columns">
             <div className="column">
-              &copy; {moment().format("YYYY")} Tayside Air Gun Club
+              &copy; {moment().format("YYYY")} Tayside Airgun Club
             </div>
           </div>
         </div>

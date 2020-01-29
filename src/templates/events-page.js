@@ -33,7 +33,7 @@ const EventsPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout pageId={frontmatter.pageId}>
       <EventsPageTemplate
         title={frontmatter.title}
         description={frontmatter.description}
@@ -58,6 +58,7 @@ export const eventsPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+	pageId
         description
         events_list {
           club

@@ -1,5 +1,6 @@
 ---
 templateKey: for-sale-page
+pageId: for sale
 title: For Sale
 sale_items:
   - date: 2020-01-27T14:49:52.849Z

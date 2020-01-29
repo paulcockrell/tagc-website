@@ -1,5 +1,6 @@
 ---
 templateKey: articles-page
+pageId: articles
 title: Articles
 articles:
   - file: /img/22-or-.177.pdf

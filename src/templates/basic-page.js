@@ -32,7 +32,7 @@ const BasicPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout pageId={post.frontmatter.pageId}>
       <BasicPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -54,6 +54,7 @@ export const basicPageQuery = graphql`
       html
       frontmatter {
         title
+	pageId
       }
     }
   }

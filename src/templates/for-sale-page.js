@@ -40,7 +40,7 @@ const ForSalePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout pageId={post.frontmatter.pageId}>
       <ForSalePageTemplate
         contentComponent={HTMLContent}
         sale_items={post.frontmatter.sale_items}
@@ -67,6 +67,7 @@ export const forSalePageQuery = graphql`
       html
       frontmatter {
         title
+	pageId
         sale_items {
           date(formatString: "MMMM DD, YYYY")
           title

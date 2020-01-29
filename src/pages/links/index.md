@@ -1,5 +1,6 @@
 ---
 templateKey: links-page
+pageId: links
 title: Links
 description: We have compiled a list of external links that you may find useful.
 links:

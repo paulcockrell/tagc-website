@@ -36,7 +36,7 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <Layout pageId="contact us">
         <div className="content">
           <SectionHeader text={"Contact"} />
           <section className="section section--gradient">

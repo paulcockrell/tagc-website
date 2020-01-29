@@ -6,8 +6,10 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
+const Layout = ({ pageId, children }) => {
   const { title, description } = useSiteMetadata()
+	console.log("Layout#pageId", pageId)
+
   return (
     <div>
       <Helmet>
@@ -48,11 +50,11 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Header navBarActiveMenuItem={"membership"} />
+      <Header navBarActiveMenuItem={pageId} />
       <div>{children}</div>
       <Footer />
     </div>
   )
 }
 
-export default TemplateWrapper
+export default Layout

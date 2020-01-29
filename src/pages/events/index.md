@@ -1,5 +1,6 @@
 ---
 templateKey: events-page
+pageId: events
 title: Events
 description: >-
   We hold club events, and several of our members compete with considerable

@@ -1,6 +1,5 @@
 ---
 templateKey: index-page
-pageId: home
 title: >-
   Formed in the spring of 2000 by a group of like minded people as a safe,
   secure and reliable place to shoot at static targets.
@@ -26,8 +25,8 @@ intro:
   blurbs:
     - image: /img/indoor-range.jpg
       text: >
-        We provide our members with a variety of shooting disciplines 24 hours
-        per day, 365 days per year.
+        We provide our members with a variety of shooting disciplines 24 hours a
+        day, 365 days a year.
     - image: /img/hft-course.jpg
       text: >
         We have a full HFT 30 target course, laid out to STS specification, a 30

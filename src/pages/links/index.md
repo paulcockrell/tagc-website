@@ -3,6 +3,10 @@ templateKey: links-page
 title: Links
 description: We have compiled a list of external links that you may find useful.
 links:
+  - description: The national governing body for all target shooting sports in Scotland.
+    heading: Scottish Target Shooting
+    image: /img/sts-big.jpg
+    url: 'http://www.scottishtargetshooting.co.uk/'
   - description: >-
       For all things shooting. Corporate days etc. Good food at Auchterhouse
       Country Sports.
@@ -21,9 +25,5 @@ links:
     heading: The Pear Tree
     image: /img/thepeartree.jpg
     url: 'http://www.peartreeauchterhouse.co.uk/'
-  - description: The national governing body for all target shooting sports in Scotland.
-    heading: Scottish Target Shooting
-    image: /img/sts-big.jpg
-    url: 'http://www.scottishtargetshooting.co.uk/'
 ---
 

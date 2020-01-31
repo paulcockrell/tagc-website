@@ -1,7 +1,7 @@
 ---
 templateKey: links-page
 title: Links
-description: We have compiled a list of external links that you may find useful.
+description: Here are a few external links that you may find useful.
 links:
   - description: >-
       For all things shooting. Corporate days etc. Good food at Auchterhouse

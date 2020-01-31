@@ -18,10 +18,6 @@ notifications:
       the Barn.  If you have any problems, please contact Bill Gordon, either at
       the club or through the Contact Us page.
     type: info
-  - text: This is a test
-    type: primary
-  - text: This is another test
-    type: primary
 intro:
   blurbs:
     - image: /img/indoor-range.jpg

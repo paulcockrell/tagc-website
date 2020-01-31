@@ -20,6 +20,8 @@ notifications:
     type: info
   - text: This is a test
     type: primary
+  - text: This is another test
+    type: primary
 intro:
   blurbs:
     - image: /img/indoor-range.jpg

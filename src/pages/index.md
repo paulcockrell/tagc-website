@@ -6,15 +6,11 @@ title: >-
 image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:
-  - text: >
-      This is Tayside Airgun Club's new website! It is still a work in progress
-      and will not be fully launched until February, but you are welcome to
-      browse the unfinished product.
-
+  - text: >-
+      WELCOME TO TAYSIDE AIRGUN CLUB'S NEW WEBSITE.
 
       We hope you find the new site easy to navigate and that you find the
-      information you are looking for.  Once officially launched, we will keep
-      the site up to date including club news, events and items for sale.
+      information you are looking for. 
     type: primary
   - text: >
       MEMBERSHIP CARDS - Please remember to collect your membership cards from

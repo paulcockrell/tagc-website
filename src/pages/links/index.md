@@ -3,6 +3,10 @@ templateKey: links-page
 title: Links
 description: Here are a few external links that you may find useful.
 links:
+  - description: One of the main associations for Hunter Field Target (HFT) shooting.
+    heading: UKAHFT
+    image: /img/ukahft.jpg
+    url: 'https://sites.google.com/site/ukahft/'
   - description: >-
       For all things shooting. Corporate days etc. Good food at Auchterhouse
       Country Sports.
@@ -13,10 +17,6 @@ links:
     heading: Scottish Target Shooting
     image: /img/sts-big.jpg
     url: 'http://www.scottishtargetshooting.co.uk/'
-  - description: One of the main associations for Hunter Field Target (HFT) shooting.
-    heading: UKAHFT
-    image: /img/ukahft.jpg
-    url: 'https://sites.google.com/site/ukahft/'
   - description: Controls many forms of small bore and airgun competition
     heading: National Small-bore Rifle Association
     image: /img/nsra.jpg

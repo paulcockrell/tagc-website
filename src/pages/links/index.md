@@ -1,6 +1,5 @@
 ---
 templateKey: links-page
-pageId: links
 title: Links
 description: We have compiled a list of external links that you may find useful.
 links:
@@ -10,13 +9,11 @@ links:
     heading: Auchterhouse Country Sports
     image: /img/auckterhouse.jpg
     url: 'http://www.auchterhousecountrysports.co.uk/'
-  - description: >-
-      UK governing body for smallbore and air rifles. The Club is affiliated to
-      UKAHFT & shoots to their rules.
+  - description: One of the main associations for Hunter Field Target (HFT) shooting.
     heading: UKAHFT
     image: /img/ukahft.jpg
     url: 'https://sites.google.com/site/ukahft/'
-  - description: UK governing body for smallbore and air rifles.
+  - description: Governs many forms of small bore and airgun shooting.
     heading: National Small-bore Rifle Association
     image: /img/nsra.jpg
     url: 'https://www.nsra.co.uk/'

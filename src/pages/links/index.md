@@ -21,5 +21,9 @@ links:
     heading: The Pear Tree
     image: /img/thepeartree.jpg
     url: 'http://www.peartreeauchterhouse.co.uk/'
+  - description: The national governing body for all target shooting sports in Scotland.
+    heading: Scottish Target Shooting
+    image: /img/sts-big.jpg
+    url: 'http://www.scottishtargetshooting.co.uk/'
 ---
 

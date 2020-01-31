@@ -10,7 +10,8 @@ notifications:
       WELCOME TO TAYSIDE AIRGUN CLUB'S NEW WEBSITE.
 
       We hope you find the new site easy to navigate and that you find the
-      information you are looking for. 
+      information you are looking for. The site is very new and you may see
+      signs of testing still going on, please bear with us.
     type: primary
   - text: >
       MEMBERSHIP CARDS - Please remember to collect your membership cards from

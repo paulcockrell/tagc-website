@@ -13,6 +13,13 @@ notifications:
       information you are looking for. The site is very new and you may see
       signs of testing still going on, please bear with us.
     type: primary
+  - text: >-
+      NEW AIR PRICES Please note the new prices, with immediate effect, for air
+      are 20p for a pistol, 50p for a rifle with an ordinary size cylinder (up
+      to 250cc) and £1 for buddy bottles and extra large cylinders (bigger than
+      250cc).  This change has been forced on us by our supplier doubling their
+      prices over night.
+    type: info
   - text: >
       MEMBERSHIP CARDS - Please remember to collect your membership cards from
       the Barn.  If you have any problems, please contact Bill Gordon, either at

@@ -1,6 +1,5 @@
 ---
 templateKey: articles-page
-pageId: articles
 title: Articles
 articles:
   - file: /img/22-or-.177.pdf
@@ -13,6 +12,8 @@ articles:
     title: Servicing spring powered air rifles by Stan Hoskins
   - file: /img/vermin-control-.177-v-.22.pdf
     title: Vermin control by Stan Hoskins
+  - file: /img/what-can-a-regulator-do-for-me-by-alan-walker.pdf
+    title: What can a regulator do for me? by Alan Walker
 ---
 The articles published on this page are by Club members for the use and information of other club members.
 

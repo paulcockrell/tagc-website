@@ -15,9 +15,9 @@ notifications:
     type: primary
   - text: >-
       NEW BENCHREST LEAGUE STARTING.  A new benchrest league competition is
-      starting.  It is open to all members and you should all have got the email
-      from Alan Hume.  Detailed rules, guidance notes and practice targets you
-      can print are in the Articles section.
+      starting.  It is open to all members and you should all have seen the
+      email from Alan Walker.  Detailed rules, guidance notes and practice
+      targets you can print are in the Articles section.
     type: info
   - text: >-
       NEW AIR PRICES Please note the new prices, with immediate effect, for air

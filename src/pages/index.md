@@ -18,7 +18,7 @@ notifications:
       starting.  It is open to all members and you should all have seen the
       email from Alan Walker.  Detailed rules, guidance notes and practice
       targets you can print are in the Articles section.
-    type: info
+    type: primary
   - text: >-
       NEW AIR PRICES Please note the new prices, with immediate effect, for air
       are 20p for a pistol, 50p for a rifle with an ordinary size cylinder (up

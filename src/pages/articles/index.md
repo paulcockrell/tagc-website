@@ -2,9 +2,9 @@
 templateKey: articles-page
 title: Articles
 articles:
-  - file: /img/benchrest-guidance.pdf
+  - file: /img/benchrest-league-guidance-v4.pdf
     title: Benchrest Guidance Notes
-  - file: /img/benchrest-rules.pdf
+  - file: /img/benchrest-league-rules-v4.pdf
     title: Benchrest Rules
   - file: /img/benchrest-target-tayside.pdf
     title: Benchrest Practice Targets

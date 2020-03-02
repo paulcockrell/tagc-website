@@ -31,6 +31,11 @@ notifications:
       the Barn.  If you have any problems, please contact Bill Gordon, either at
       the club or through the Contact Us page.
     type: info
+  - text: >-
+      TAYSIDE 25m BENCHREST LEAGUE  The first set of results are out in the
+      results section.  It's not too late to join in - see Alan Walker or Gavin
+      Wemyss if you want to start.  It's fiendish, but it's fun!
+    type: info
 intro:
   blurbs:
     - image: /img/indoor-range.jpg

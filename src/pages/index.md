@@ -17,7 +17,7 @@ notifications:
       We hope you find the new site easy to navigate and that you find the
       information you are looking for. The site is very new and you may see
       signs of testing still going on, please bear with us.
-    type: primary
+    type: info
   - text: >-
       NEW AIR PRICES Please note the new prices, with immediate effect, for air
       are 20p for a pistol, 50p for a rifle with an ordinary size cylinder (up

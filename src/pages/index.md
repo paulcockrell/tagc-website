@@ -14,6 +14,11 @@ notifications:
       signs of testing still going on, please bear with us.
     type: primary
   - text: >-
+      BARN CLOSURE   Please note that the barn will be closed  8th March 2020
+      and 22nd March 2020 from 10.45am until approximately 12.30pm for a new
+      members induction.
+    type: primary
+  - text: >-
       NEW BENCHREST LEAGUE STARTING.  A new benchrest league competition is
       starting.  It is open to all members and you should all have seen the
       email from Alan Walker.  Detailed rules, guidance notes and practice

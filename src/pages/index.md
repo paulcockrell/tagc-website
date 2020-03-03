@@ -7,6 +7,11 @@ image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:
   - text: >-
+      BARN CLOSURE   Please note that the barn will be closed 8th March 2020 and
+      22nd March 2020 from 10.45am until approximately 12.30pm for a new members
+      induction.  
+    type: primary
+  - text: >-
       WELCOME TO TAYSIDE AIRGUN CLUB'S NEW WEBSITE.
 
       We hope you find the new site easy to navigate and that you find the
@@ -14,16 +19,11 @@ notifications:
       signs of testing still going on, please bear with us.
     type: primary
   - text: >-
-      BARN CLOSURE   Please note that the barn will be closed  8th March 2020
-      and 22nd March 2020 from 10.45am until approximately 12.30pm for a new
-      members induction.
-    type: primary
-  - text: >-
       NEW BENCHREST LEAGUE STARTING.  A new benchrest league competition is
       starting.  It is open to all members and you should all have seen the
       email from Alan Walker.  Detailed rules, guidance notes and practice
       targets you can print are in the Articles section.
-    type: primary
+    type: info
   - text: >-
       NEW AIR PRICES Please note the new prices, with immediate effect, for air
       are 20p for a pistol, 50p for a rifle with an ordinary size cylinder (up

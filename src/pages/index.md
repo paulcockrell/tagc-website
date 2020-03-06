@@ -7,9 +7,14 @@ image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:
   - text: >-
-      BARN CLOSURE   Please note that the barn will be closed 8th March 2020 and
-      22nd March 2020 from 10.45am until approximately 12.30pm for a new members
-      induction.  
+      BARN CLOSURES   Please note that the barn will be closed 8th March 2020
+      and 22nd March 2020 from 10.45am until approximately 12.30pm for a new
+      members induction.  
+    type: primary
+  - text: >-
+      COURSE CLOSURES  The course will be closed 9 August and possibly 13
+      September due to Auchterhouse Country Sports events.  The September date
+      will be confirmed  when we know for sure.
     type: primary
   - text: >-
       WELCOME TO TAYSIDE AIRGUN CLUB'S NEW WEBSITE.
@@ -17,6 +22,11 @@ notifications:
       We hope you find the new site easy to navigate and that you find the
       information you are looking for. The site is very new and you may see
       signs of testing still going on, please bear with us.
+    type: info
+  - text: >-
+      2020 SHOOT CALENDAR   For the time being, this is published under
+      'Articles'.  It will move to it's proper home shortly.  And just when you
+      thought you'd tested everything....
     type: info
   - text: >-
       NEW AIR PRICES Please note the new prices, with immediate effect, for air

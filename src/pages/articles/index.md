@@ -2,6 +2,8 @@
 templateKey: articles-page
 title: Articles
 articles:
+  - file: /img/calendar-stsair-2020-competitions-1.pdf
+    title: 2020 SHOOT CALENDAR
   - file: /img/benchrest-league-guidance-v4.pdf
     title: Benchrest Guidance Notes
   - file: /img/benchrest-league-rules-v4.pdf

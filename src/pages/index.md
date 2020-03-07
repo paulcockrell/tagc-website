@@ -6,11 +6,6 @@ title: >-
 image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:
-  - text: |-
-      NEW UPDATES
-      Shoot calendar 2020 - www.taysideairgunclub.co.uk/articles
-      March News Update - www.taysideairgunclub.co.uk/reports
-    type: primary
   - text: >-
       BARN CLOSURES   Please note that the barn will be closed 8th March 2020
       and 22nd March 2020 from 10.45am until approximately 12.30pm for a new

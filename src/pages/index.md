@@ -47,8 +47,8 @@ intro:
     - image: /img/hft-course.jpg
       text: >
         We have a full HFT 30 target course, laid out to STS specification, a 30
-        target plinking course, an outdoor plinking range and a 35 yard indoor
-        range.
+        target practice course, an outdoor practice/zeroing range and a 35 yard
+        indoor range.
     - image: /img/air-pistol.png
       text: >
         There is a very active pistol section which meets every Friday evening

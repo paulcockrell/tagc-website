@@ -6,12 +6,12 @@ description: >-
   success in competitions throughout the UK. It is always great fun and we
   recommend you join us, all levels of experience are welcome.
 events_list:
-  - club: TAYSIDE
-    date: 2020-03-02T16:52:52.760Z
+  - club: Tayside
+    date: 2020-03-12T10:22:15.719Z
     league: Club
     results:
-      - image: /img/results-feb-2020.jpg
-    type: 25 Metre Benchrest 2020
+      - image: /img/feb-scores-final.jpg
+    type: BENCHREST RESULTS FEBRUARY 2020
   - club: Tayside
     date: 2019-12-29T00:00:00.000Z
     league: Club

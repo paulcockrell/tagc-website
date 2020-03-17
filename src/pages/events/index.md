@@ -6,6 +6,12 @@ description: >-
   success in competitions throughout the UK. It is always great fun and we
   recommend you join us, all levels of experience are welcome.
 events_list:
+  - club: New Kypeside
+    date: 2020-03-15T12:00:23.418Z
+    league: STS
+    results:
+      - image: /img/kypeside-sarc.png
+    type: SARC
   - club: Tayside
     date: 2020-03-12T10:22:15.719Z
     league: Club

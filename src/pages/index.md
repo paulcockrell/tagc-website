@@ -9,7 +9,7 @@ notificationsHeading: >-
   UNTIL FURTHER NOTICE
 notifications:
   - text: >-
-      IMPORTANT - COVID-19 PRECAUTIONS
+      COVID 19 - 
 
       Club members should all now be aware of the official government advice
       about protecting themselves and others from the Covid infection. The
@@ -20,7 +20,7 @@ notifications:
       the club facilities, indoor or outdoor.
 
 
-      ALL MEETINGS, SHOOTS AND INDUCTIONS ARE POSTPONED UNTIL FURTHER NOTICE
+      All meetings, shoots and inductions are postponed until further notice
 
 
       Members wishing to use the course or the barn on an individual basis do

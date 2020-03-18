@@ -16,19 +16,20 @@ notifications:
       position is changing rapidly but at the moment for us this means:
 
 
-      People  suffering from cold or flu-like symptoms should not visit any of
-      the club facilities, indoor or outdoor.
+      *** People  suffering from cold or flu-like symptoms should not visit any
+      of the club facilities, indoor or outdoor.
 
 
-      All meetings, shoots and inductions are postponed until further notice
+      *** All meetings, shoots and inductions are postponed until further
+      notice.
 
 
-      Members wishing to use the course or the barn on an individual basis do
-      so  at their own risk. They are  advised not to share any indoor space
+      *** Members wishing to use the course or the barn on an individual basis
+      do so  at their own risk. They are  advised not to share any indoor space
       including the huts or the barn with any other person.  
 
 
-      Please check the club website regularly.
+      *** Please check the club website regularly.
 
 
       Good luck, and stay safe

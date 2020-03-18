@@ -4,7 +4,9 @@ title: >-
   Formed in the spring of 2000 by a group of like minded people as a safe,
   secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
-notificationsHeading: Club Notices
+notificationsHeading: >-
+  Club Notices - PLEASE NOTE ALL MEETINGS SHOOTS AND INDUCTIONS ARE POSTPONED
+  UNTIL FURTHER NOTICE
 notifications:
   - text: >-
       IMPORTANT - COVID-19 PRECAUTIONS

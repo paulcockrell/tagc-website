@@ -5,7 +5,7 @@ title: >-
   secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 notificationsHeading: >-
-  Club Notices - PLEASE NOTE ALL MEETINGS SHOOTS AND INDUCTIONS ARE POSTPONED
+  Club Notices - PLEASE NOTE, ALL MEETINGS, SHOOTS AND INDUCTIONS ARE POSTPONED
   UNTIL FURTHER NOTICE
 notifications:
   - text: >-

@@ -7,15 +7,35 @@ image: /img/hft-jumbotron.jpg
 notificationsHeading: Club Notices
 notifications:
   - text: >-
-      BARN CLOSURES   Please note that the barn will be closed 8th March 2020
-      and 22nd March 2020 from 10.45am until approximately 12.30pm for a new
-      members induction.  
+      IMPORTANT - COVID-19 PRECAUTIONS
+
+      Club members should all now be aware of the official government advice
+      about protecting themselves and others from the Covid infection. The
+      position is changing rapidly but at the moment for us this means:
+
+
+      People  suffering from cold or flu-like symptoms should not visit any of
+      the club facilities, indoor or outdoor.
+
+
+      ALL MEETINGS, SHOOTS AND INDUCTIONS ARE POSTPONED UNTIL FURTHER NOTICE
+
+
+      Members wishing to use the course or the barn on an individual basis do
+      so  at their own risk. They are  advised not to share any indoor space
+      including the huts or the barn with any other person.  
+
+
+      Please check the club website regularly.
+
+
+      Good luck, and stay safe
     type: primary
   - text: >-
       COURSE CLOSURES  The course will be closed 9 August and possibly 13
       September due to Auchterhouse Country Sports events.  The September date
       will be confirmed  when we know for sure.
-    type: primary
+    type: info
   - text: >-
       2020 SHOOT CALENDAR   For the time being, this is published under
       'Articles'.  It will move to it's proper home shortly.  And just when you

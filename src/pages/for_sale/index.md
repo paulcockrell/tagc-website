@@ -15,7 +15,7 @@ sale_items:
   - date: 2020-04-14T15:31:30.061Z
     description: Four gun police approved gun cabinet.
     image: /img/img_20200414_092324.jpg
-    price: Reasonable offers - buyer collects
+    price: Any reasonable offer welcome - buyer collects
     seller_name: Paul Cockerell - contact via Club email
     title: British Standard Gun Cabinet
 ---

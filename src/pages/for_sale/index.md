@@ -13,9 +13,11 @@ sale_items:
     seller_name: Contact Ron or Kathleen at the Club
     title: WEBLEY SENIOR 0.177 PISTOL
   - date: 2020-04-14T15:31:30.061Z
-    description: Four gun police approved gun cabinet.
+    description: >-
+      Four gun police approved gun cabinet.  No reasonable offer refused - buyer
+      collects
     image: /img/img_20200414_092324.jpg
-    price: Any reasonable offer welcome - buyer collects
+    price: '0'
     seller_name: Paul Cockerell - contact via Club email
     title: British Standard Gun Cabinet
 ---

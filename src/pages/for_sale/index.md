@@ -1,6 +1,5 @@
 ---
 templateKey: for-sale-page
-pageId: for sale
 title: For Sale
 sale_items:
   - date: 2020-01-27T14:49:52.849Z
@@ -13,6 +12,12 @@ sale_items:
     price: '200'
     seller_name: Contact Ron or Kathleen at the Club
     title: WEBLEY SENIOR 0.177 PISTOL
+  - date: 2020-04-14T15:31:30.061Z
+    description: Four gun police approved gun cabinet.
+    image: /img/img_20200414_092324.jpg
+    price: Reasonable offers - buyer collects
+    seller_name: Paul Cockerell - contact via Club email
+    title: British Standard Gun Cabinet
 ---
 The club has a variety of items for sale from its club members. If you are interested in any thing then please contact us via the contact form or speak to the club member directly. 
 

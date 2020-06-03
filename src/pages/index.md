@@ -17,8 +17,8 @@ notifications:
   - text: >-
       IMPORTANT  - Club emails are not getting through to some members,
       especially those on btinternet.com: they are being rejected as spam. WILL
-      ALL MEMBERS PLEASE MAKE SURE THAT  tacsecy@outlook.com is removed from
-      their spam filters.
+      ALL MEMBERS PLEASE MAKE SURE THAT  tacsecy@outlook.com IS REMOVED FROM
+      THEIR SPAM FILTERS.
     type: primary
   - text: >-
       COURSE CLOSURES  The course will be closed 9 August and possibly 13

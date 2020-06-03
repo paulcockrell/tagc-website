@@ -5,33 +5,20 @@ title: >-
   secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 notificationsHeading: >-
-  Club Notices - PLEASE NOTE: ALL MEETINGS, SHOOTS AND INDUCTIONS ARE POSTPONED
-  UNTIL FURTHER NOTICE
+  THE CLUB WILL OPEN IN A LIMITED CAPACITY ON SATURDAY 6 JUNE - SEE 'REPORTS'
+  SECTION FOR DETAILS 
 notifications:
+  - text: >+
+      IMPORTANT - The club will open in a limited capacity, with strict rules to
+      ensure the safety of members, on Saturday 6 June.  See the 'Reports
+      section for details.
+
+    type: primary
   - text: >-
-      COVID 19 - 
-
-      Club members should all now be aware of the official government advice
-      about protecting themselves and others from the Covid infection. The
-      position is changing rapidly but at the moment for us this means:
-
-
-      People  suffering from cold or flu-like symptoms should not visit any of
-      the club facilities, indoor or outdoor.
-
-
-      All meetings, shoots and inductions are postponed until further notice.
-
-
-      Members wishing to use the course or the barn on an individual basis do
-      so  at their own risk. They are  advised not to share any indoor space
-      including the huts or the barn with any other person.  
-
-
-      Please check the club website regularly.
-
-
-      Good luck, and stay safe
+      IMPORTANT  - Club emails are not getting through to some members,
+      especially those on btinternet.com: they are being rejected as spam. WILL
+      ALL MEMBERS PLEASE MAKE SURE THAT  tacsecy@outlook.com is removed from
+      their spam filters.
     type: primary
   - text: >-
       COURSE CLOSURES  The course will be closed 9 August and possibly 13

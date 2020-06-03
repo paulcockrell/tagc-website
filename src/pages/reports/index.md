@@ -4,7 +4,7 @@ title: Reports
 ---
 # **Tayside Airgun Club Reopening Plan**
 
-The club will open in a limited capacity on Saturday 6th June 2020 below is a list of conditions for shooting until further notice.
+The club will open in a limited capacity on Saturday 6th June 2020.  Below is a list of conditions for shooting until further notice.
 
 If you are showing any of the listed symptoms of Covid-19, **do not attend.**
 
@@ -55,17 +55,23 @@ You can inform us via the email address tagcenquires@outlook.com or by using the
 
 The Committee
 
+.
 
+.
 
+.
 
+.
 
+.
 
+.
 
+.
 
+.
 
-
-
-
+.
 
 ## Tayside Airgun Club March Update
 

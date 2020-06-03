@@ -2,9 +2,9 @@
 templateKey: basic-page
 title: Reports
 ---
-# \    **Tayside Airgun Club Reopening Plan**
+# **Tayside Airgun Club Reopening Plan**
 
-The club will open in a limited capacity on Saturday 6th June 2020 below is a list of conditions for shooting until further notice.
+The club will open in a limited capacity on Saturday 6th June 2020 below is a list of conditions for shooting until further notice.
 
 If you are showing any of the listed symptoms of Covid-19, **do not attend.**
 
@@ -21,47 +21,39 @@ If you are not willing to follow guidelines, **do not attend.**
 * Arrive 1 person per car unless from the same household.
 * Bring your own hand sanitiser.
 * Disinfectant, kitchen roll and small rubbish bags available in hut and equipment hut to wipe down any equipment you handle including, padlock, door handles, keys, air bottle connections, controls etc. 
-* What you touch, you wipe before and afterwards. No exceptions.  Take cloths away with you, do not leave for others to dispose of.  Bins will be removed from hut.
-* Only 1 person in hut to sign in at any one time no exceptions.  Bring your own pen. 
-* Only 1 person in equipment hut at any one time, no exceptions.  Wait outside, back from the steps until hut is clear.
-* There will be a one-way system in place on the course to prevent shooters mixing.
+* What you touch, you wipe before and afterwards. No exceptions.  Take cloths away with you, do not leave for others to dispose of.  Bins will be removed from hut.
+* Only 1 person in hut to sign in at any one time no exceptions.  Bring your own pen. 
+* Only 1 person in equipment hut at any one time, no exceptions.  Wait outside, back from the steps until hut is clear.
+* There will be a one-way system in place on the course to prevent shooters mixing.
 
-**1-way system around course.** 
+**1-way system around course.** 
 
 * Walk up road and enter course from peg 30 area, and shooting to peg 1.  If you do not wish to go on the plateau leave the course at white peg no 10 before reaching the steps area.
 * White pegs are the markers and not the yellow numbers.
 * Use a gloved hand to touch pegs or strings if you do not use gloves sanitise hands before and after touching pegs or strings.
 
-**Shooting on course**
+**Shooting on course**
 
-* **Only 1 person per peg, at least 2 pegs distance apart**, depending where peg is positioned on course.  Do not pass any person in front of you.  Do not move away from your peg until the person in front as moved on.
-* If shooters are in the same household then they may shoot together. 
+* **Only 1 person per peg, at least 2 pegs distance apart**, depending where peg is positioned on course.  Do not pass any person in front of you.  Do not move away from your peg until the person in front as moved on.
+* If shooters are in the same household then they may shoot together. 
 
-#   If you touch it disinfect it - No Exceptions
+# **If you touch it disinfect it - No Exceptions**
 
-****
+**Plinking Range**
 
-**Plinking Range**
+* Maximum of 2 people on plinking range at any one time.
+* No socialising inside any of the huts, stay outside at/or near your car.
+* If you go to the Barn to get the key for the course disinfect whatever you touch.
 
-* Maximum of 2 people on plinking range at any one time.
-* No socialising inside any of the huts, stay outside at/or near your car.
-* If you go to the Barn to get the key for the course disinfect whatever you touch.
+These instructions/conditions may be subject to change at short notice due to government advice. You will be informed of any changes as soon as possible.
 
-
-
-These instructions/conditions may be subject to change at short notice due to government advice. You will be informed of any changes as soon as possible.
-
-Any members wishing to shoot under the new guidelines should inform the club of their intent via the club website, once numbers are known it may be necessary to organize a rota system.
+Any members wishing to shoot under the new guidelines should inform the club of their intent via the club website, once numbers are known it may be necessary to organize a rota system.
 
 By informing us of your intention to shoot via the club website you are stating that you have read and agree to abide by these instructions until further notice.
 
 You can inform us via the email address tagcenquires@outlook.com or by using the contact form on the website.
 
-
-
 The Committee
-
-
 
 
 

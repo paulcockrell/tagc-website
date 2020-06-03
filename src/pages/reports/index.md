@@ -47,11 +47,11 @@ If you are not willing to follow guidelines, **do not attend.**
 
 These instructions/conditions may be subject to change at short notice due to government advice. You will be informed of any changes as soon as possible.
 
-Any members wishing to shoot under the new guidelines should inform the club of their intent via the club website, once numbers are known it may be necessary to organize a rota system.
+**Any members wishing to shoot under the new guidelines should inform the club of their intent via the club website, once numbers are known it may be necessary to organize a rota system.**
 
-By informing us of your intention to shoot via the club website you are stating that you have read and agree to abide by these instructions until further notice.
+**By informing us of your intention to shoot via the club website you are stating that you have read and agree to abide by these instructions until further notice.**
 
-You can inform us via the email address tagcenquires@outlook.com or by using the contact form on the website.
+**You can inform us via the email address tagcenquires@outlook.com or by using the contact form on the website.**
 
 The Committee
 

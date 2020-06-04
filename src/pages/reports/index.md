@@ -51,7 +51,7 @@ These instructions/conditions may be subject to change at short notice due to go
 
 **By informing us of your intention to shoot via the club website you are stating that you have read and agree to abide by these instructions until further notice.**
 
-**You can inform us via the email address tagcenquires@outlook.com or by using the contact form on the website.**
+**You can inform us via the email address** [**tagcenquires@outlook.com**](tagcenquires@outlook.com) **or by using the contact form on the website.**
 
 The Committee
 

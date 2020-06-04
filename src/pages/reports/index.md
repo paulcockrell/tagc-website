@@ -54,9 +54,9 @@ If you are not willing to follow guidelines, **do not attend.**
 
 **By informing us of your intention to shoot via the club website you are stating that you have read and agree to abide by these instructions until further notice.**
 
-**You can inform us via the email address** **tagcenquires@outlook.com via the link at the top of the page or by using the contact form on the website.**
+**You can inform us via the email address** **tagcenquires@outlook.com via the link at the top of this page or by using the contact form on this website.**
 
-The Committee
+**The Committee**
 
 .
 

@@ -22,9 +22,9 @@ notifications:
       btinternet.com: they are being rejected as spam. 
     type: primary
   - text: >-
-      COURSE CLOSURES  The course will be closed 9 August and possibly 13
-      September due to Auchterhouse Country Sports events.  The September date
-      will be confirmed  when we know for sure.
+      COURSE CLOSURES  The course may be closed 13 September due to Auchterhouse
+      Country Sports events.  This will be confirmed  when we know for sure. 
+      The course will now be OPEN on 9 August.
     type: info
   - text: >-
       2020 SHOOT CALENDAR   For the time being, this is published under

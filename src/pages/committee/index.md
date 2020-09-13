@@ -1,8 +1,6 @@
 ---
-templateKey: 'basic-page'
-pageId: committee
-path: /committee
-title: Committee 2019/2020
+templateKey: basic-page
+title: Committee 2020/21
 ---
 ### Chairman
 
@@ -10,15 +8,15 @@ Gavin Wemyss
 
 ### Vice Chairman
 
-Alan Walker (also webmaster)
+Derek Cochrane
 
 ### Secretary
 
-Alan Hume
+Graham Borland
 
 ### Treasurer
 
-Kathleen Male
+Alan Walker
 
 ### Membership Secretary
 
@@ -26,8 +24,12 @@ Bill Gordon
 
 ### Committee Members
 
-* Bob Somers
-* Gary Worthington
-* Mark Cumming
-* Graham Borland
-* Derek Cochrane
+Andy brown
+
+Mike Fiddes
+
+Gus Sawers
+
+Davie Westwater
+
+Gary Worthington

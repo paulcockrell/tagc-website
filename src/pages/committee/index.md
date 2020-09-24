@@ -2,21 +2,21 @@
 templateKey: basic-page
 title: Committee 2020/21
 ---
-### Chairman
+### Chair
 
 Gavin Wemyss
 
-### Vice Chairman
+### Vice Chair
 
-
+Derek Cochrane
 
 ### Secretary
 
-
+Graham Borland
 
 ### Treasurer
 
-
+Alan Walker
 
 ### Membership Secretary
 

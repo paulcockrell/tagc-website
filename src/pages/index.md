@@ -22,11 +22,6 @@ notifications:
       btinternet.com: they are being rejected as spam. 
     type: primary
   - text: >-
-      COURSE CLOSURES  The course may be closed 13 September due to Auchterhouse
-      Country Sports events.  This will be confirmed  when we know for sure. 
-      The course will now be OPEN on 9 August.
-    type: info
-  - text: >-
       2020 SHOOT CALENDAR   For the time being, this is published under
       'Articles'.  It will move to it's proper home shortly.  And just when you
       thought you'd tested everything....
@@ -37,11 +32,6 @@ notifications:
       to 250cc) and £1 for buddy bottles and extra large cylinders (bigger than
       250cc).  This change has been forced on us by our supplier doubling their
       prices over night.
-    type: info
-  - text: >
-      MEMBERSHIP CARDS - Please remember to collect your membership cards from
-      the Barn.  If you have any problems, please contact Bill Gordon, either at
-      the club or through the Contact Us page.
     type: info
   - text: >-
       TAYSIDE 25m BENCHREST LEAGUE  The first set of results are out in the

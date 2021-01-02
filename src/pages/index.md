@@ -5,8 +5,8 @@ title: >-
   secure and reliable place to shoot at static targets.
 image: /img/hft-jumbotron.jpg
 notificationsHeading: >-
-  THE CLUB WILL OPEN IN A LIMITED CAPACITY ON SATURDAY 6 JUNE - SEE 'REPORTS'
-  SECTION FOR DETAILS 
+  THIS SITE IS NO LONGER IN USE. PLEASE GO TO OUR CURRENT SITE:
+  taysideairgunclub.co.uk
 notifications:
   - text: >+
       IMPORTANT - The club will open in a limited capacity, with strict rules to
